@@ -15,7 +15,7 @@ export default function IntroSection() {
                                 <div className={`py-lg-5 ${styles.rightSide} px-3`}>
                                     <h1 className={`${styles.sectionTitle} pt-md-5 pt-3 text-white`}><b>Get fully managed tech services</b></h1>
                                     <p className={`${styles.sectionBody} text-white`}>Use Dreamstack to imagine, deliver, and run solutions to your toughest business problems. Discover quality, speed, and cost efficiency from our internal industry experts and the fully managed teams they build for you.</p>
-                                    <Link className={`btn ${styles.openPositionBtn} px-4 py-3`} href="/contact" role="button"><b>Try Dreamstack for free</b></Link>
+                                    <Link className={`btn ${styles.openPositionBtn} px-4 py-3`} href="/Turing" role="button"><b>Explore Services</b></Link>
                                     <Link className={`btn ${styles.salesBtn} px-4 py-3`} href="/contact" role="button"><b>Talk to sales</b></Link>
                                     <div className={`${styles.makeDivAlignCenterAfterLGScrn}`}>
                                         <div className="row mt-4">
