@@ -31,7 +31,7 @@ export default function SecondPage() {
             }
         } else {
             if (capitalFunded === 'No' && IPOListed === 'No') {
-                router.push('ThanksPage')
+                router.push('ThirdPageYes')
             } else {
                 router.push('ThirdPageYes')
             }
