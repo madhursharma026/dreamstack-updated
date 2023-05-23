@@ -1,0 +1,85 @@
+.Section1 {
+    margin-top: 58px;
+    background: #294dff;
+}
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.Section1Content {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.openPositionBtn {
+    background: #253053;
+    border: 2px solid #253053;
+    color: white;
+    /* font-size: calc(14px + 0.20vw); */
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+.openPositionBtn:hover {
+    background: #021fa9;
+    border: 2px solid #021fa9;
+    color: white;
+}
+
+.salesBtn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    /* font-size: calc(14px + 0.20vw); */
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+.salesBtn:hover {
+    background: white;
+    border: 2px solid #021fa9;
+    color: #021fa9;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .openPositionBtnSection {
+        text-align: right;
+    }
+}
+
+@media (max-width: 767px) {
+    .openPositionBtnSection {
+        text-align: center;
+    }
+
+    .salesBtnSection {
+        text-align: center;
+    }
+
+    .openPositionBtn {
+        width: 100%;
+    }
+
+    .salesBtn {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}

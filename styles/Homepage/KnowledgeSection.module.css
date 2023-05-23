@@ -1,0 +1,88 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.subHeading {
+    letter-spacing: .04em !important;
+    font-size: 1.125rem;
+    color: #9E9FA3;
+    margin-bottom: 16px !important;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.sectionTitle2 {
+    font-size: calc(20px + 1.15vw);
+}
+
+#divpos {
+    background-color: #1e2222;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+
+#para4 {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-style: normal;
+}
+
+#backButton {
+    bottom: 14px;
+    left: -5px;
+    cursor: pointer;
+}
+
+#frontButton {
+    bottom: 20px;
+    right: 0px;
+    cursor: pointer;
+}
+
+#buttontext {
+    bottom: -10px;
+    left: 15px;
+    color: #ffffff
+}
+
+#buttontext2 {
+    bottom: -12px;
+    right: 40px;
+    color: #ffffff;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 870px) {
+    .ContainerWidth {
+        height: 350px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+
+    #divpos {
+        box-shadow: 20px 20px #1E2222;
+    }
+}
+
+@media (max-width: 767px) {
+    .sectionRow {
+        text-align: center;
+    }
+}

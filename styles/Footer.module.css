@@ -1,0 +1,86 @@
+.footerBG {
+    background: #000;
+}
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.footerPadding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hrStyle {
+    height: 2px;
+    color: white;
+}
+
+.ulTag {
+    list-style-type: none;
+}
+
+.languageSelectBar {
+    max-width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.footerMenu {
+    display: inline-block;
+}
+
+.footerFacts1 {
+    font-size: .75rem;
+    line-height: 1.5;
+}
+
+.footerFacts2 {
+    font-size: .75rem;
+    line-height: 1.5;
+    margin-top: -15px;
+}
+
+.footer_options {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.footer_options_second {
+    font-size: .75rem;
+    line-height: 1.5;
+    text-decoration: underline;
+    color: white;
+}
+
+.footer_options_second:hover {
+    font-size: .75rem;
+    line-height: 1.5;
+    text-decoration: none;
+    color: white;
+}
+
+.footer_options:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .column2 {
+        float: right;
+    }
+}

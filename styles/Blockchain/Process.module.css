@@ -1,0 +1,20 @@
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}

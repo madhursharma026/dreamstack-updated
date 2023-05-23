@@ -1,0 +1,30 @@
+.bodyContainer {
+    background: #E9F4F2;
+}
+
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .imgStyle {
+        display: none;
+    }
+}

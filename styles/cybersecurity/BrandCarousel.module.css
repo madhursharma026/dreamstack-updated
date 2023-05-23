@@ -1,0 +1,36 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(20px + 1.25vw);
+}
+
+.sectionBody {
+    font-size: 1.30rem;
+    line-height: 32px;
+}
+
+.rowStyle{
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+    .leftSideBtn{
+        float: right;
+    }
+
+    .rightSideBtn{
+        float: left;
+    }
+}

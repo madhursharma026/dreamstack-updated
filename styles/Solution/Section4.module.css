@@ -1,0 +1,59 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(20px + 1.25vw);
+}
+
+.imageColumn {
+    margin: auto;
+}
+
+.cardSubHeading {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.carouselBody{
+    font-size: calc(8px + 1vw);
+    line-height: 38px;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+
+    .rightSide{
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .imgWidth {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .imgWidth {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    .carouselBody{
+        font-size: calc(20px + 1vw);
+        line-height: 38px;
+        margin: 0 0 24px;
+    }
+}
+
+

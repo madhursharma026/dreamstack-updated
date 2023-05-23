@@ -1,0 +1,127 @@
+.animationStyle1 {
+  top: 0;
+  transition: top 0.4s ease-out;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.sectionBody {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.animationStyle2 {
+  top: -80px;
+  transition: top 0.4s ease-out;
+}
+
+.menuOptions {
+  font-size: 17px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  padding-left: 7px;
+}
+
+.menuOptions:hover {
+  color: #000;
+}
+
+.ContainerWidth {
+  max-width: 1550px;
+  margin: 0 auto;
+}
+
+.downloadBtn {
+  font-size: 14px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.menuOptionsAfterLG {
+  font-size: 17px;
+  border: 0;
+  margin-top: -10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.menuOptionsAfterLG:hover {
+  color: #000;
+}
+
+.navbarToggle {
+  font-size: 14px;
+  border: 0;
+}
+
+.navbarToggle:hover {
+  font-size: 14px;
+  background: #EDEDF0;
+  border: 0;
+}
+
+#basicNavDropdown {
+  color: black;
+}
+
+#basicNavDropdown::after {
+  content: none;
+}
+
+.menuULTagStyle {
+  list-style-type: none;
+}
+
+.menuLITagStyle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2pc;
+  letter-spacing: .5px;
+  text-decoration: none!important;
+  /* border-bottom: 1px solid #494c4d; */
+  z-index: 7;
+}
+
+@media (max-width: 767px) {
+  .navOptionBeforeLG {
+    display: none;
+  }
+
+  .navOptionAfterLG {
+    display: block;
+  }
+
+  .navbarBeforeMD {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  .ContainerWidth {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ContainerWidth {
+    padding: 0 60px;
+  }
+
+  /* .navbarMenuWidth {
+    width: 600px;
+  } */
+}
+
+@media (min-width: 768px) {
+  .navOptionAfterLG {
+    display: none;
+  }
+
+  .navbarAfterMD {
+    display: none;
+  }
+}
+
+
+

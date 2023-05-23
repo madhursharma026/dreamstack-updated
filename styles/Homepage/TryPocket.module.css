@@ -1,0 +1,25 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(20px + 1.25vw);
+    font-weight: 550;
+}
+
+.sectionBody {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+@media (max-width: 767px) {
+    .tryPocketContent {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}

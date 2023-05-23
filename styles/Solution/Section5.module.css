@@ -1,0 +1,24 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(20px + 1.25vw);
+}
+
+.cardStyle {
+    border: 4px solid white;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}

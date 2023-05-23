@@ -1,0 +1,32 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.ReadAllAboutit {
+    background: #253053;
+    border: 2px solid #253053;
+    color: white;
+    /* font-size: calc(14px + 0.20vw); */
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+.ReadAllAboutit:hover {
+    background: #021fa9;
+    border: 2px solid #021fa9;
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}
+

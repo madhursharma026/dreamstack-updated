@@ -1,0 +1,40 @@
+.bodyContainer {
+    background: url("https://assets.mofoprod.net/network/images/partner-with-us.2e16d0ba.fill-1200x600.jpg");
+    background-position-x: right;
+    background-position-y: top;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.subTitle {
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.subBody {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 450px;
+}
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}

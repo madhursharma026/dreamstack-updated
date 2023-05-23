@@ -1,0 +1,30 @@
+.bodyContainer {
+    background: url("https://www.acldigital.com/sites/default/files/2022-05/Blockchain%20Banner-100_0.jpg");
+    background-position-x: right;
+    background-position-y: top;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}

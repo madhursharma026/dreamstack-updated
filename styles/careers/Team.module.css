@@ -1,0 +1,41 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.teamContainer{
+    background: #021FA9;
+}
+
+.sectionTitle {
+    font-size: calc(20px + 1.25vw);
+    font-weight: 550;
+}
+
+.sectionBody {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    line-height: 32px;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+
+    .imgWidth {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .imgWidth {
+        width: 70%;
+    }
+}

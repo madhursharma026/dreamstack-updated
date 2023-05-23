@@ -1,0 +1,32 @@
+.bodyContainer {
+    background: url("https://www.sitelock.com/images/cta-bg-1-75327a.webp");
+    background-position-x: right;
+    background-position-y: top;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.sectionBody {
+    font-size: 1.5rem;
+    max-width: 800px;
+    line-height: 1.5;
+  }
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}

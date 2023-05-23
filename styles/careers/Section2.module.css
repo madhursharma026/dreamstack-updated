@@ -1,0 +1,50 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(20px + 1.25vw);
+    font-weight: 550;
+}
+
+.sectionBody {
+    font-size: 1rem;
+    line-height: 32px;
+}
+
+.openPositionBtn {
+    border: 2px solid #021fa9;
+    color: #021fa9;
+    /* font-size: calc(14px + 0.20vw); */
+    font-size: 20px;
+    padding: 20px 30px;
+    font-weight: 550;
+}
+
+.openPositionBtn:hover {
+    background: #021fa9;
+    border: 2px solid #021fa9;
+    color: white;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+    .imgWidth{
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .imgWidth{
+        width: 70%;
+    }
+}

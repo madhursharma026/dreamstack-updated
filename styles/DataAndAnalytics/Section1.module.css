@@ -1,0 +1,100 @@
+.IntroSection {
+    margin-top: 58px;
+    background: #20123A;
+}
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.sectionBody {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.imgCropStyle {
+    clip-path: polygon(0 0, 100% 0, 100% 70%, -25px 100%);
+}
+
+.installBtn {
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none !important;
+    background: white;
+    color: #000;
+    padding: 10px 24px;
+}
+
+.letsTalk {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.letsTalk:hover {
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.installBtn:hover {
+    background: #9059FF;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 22px;
+}
+
+.imgStyle {
+    padding: 100px;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+
+    .rightSide {
+        margin-top: 70px;
+        max-width: 700px;
+        float: right;
+    }
+
+    .imgCropStyle {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+        min-width: 800px;
+    }
+}
+
+.BRTagBeforeMDScrn {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .imgStyle {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .BRTagBeforeMDScrn {
+        display: block;
+    }
+}
+
+@media (max-width: 1199px) {
+    .imgStyle {
+        margin-top: 20px;
+    }
+}

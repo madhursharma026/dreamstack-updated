@@ -1,0 +1,54 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(20px + 1.25vw);
+    font-weight: 550;
+}
+
+.sectionBody {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.formSubmitBtn {
+    background: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: white;
+}
+
+.formInput{
+    border-radius: 5px;
+    border: 2px solid #9595a2;
+}
+
+.formSubmitBtn:hover {
+    background: #EDEDF0;
+    border: 2px solid black;
+}
+
+@media (min-width: 768px) {
+    .imgSection {
+        text-align: right;
+        padding-right: 100px;
+    }
+
+    .formSection {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .imgSection {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}

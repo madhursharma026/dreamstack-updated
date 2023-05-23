@@ -1,0 +1,69 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(26px + .65vw);
+}
+
+.sectionContent {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.leftArrow{
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.rightArrow{
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: auto;
+    transform: rotate(180deg);
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+    .imgWidth{
+        width: 100%;
+    }
+
+    .sectionBody{
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 992px) {
+    .imgWidth{
+        width: 70%;
+    }
+
+    .sectionBody{
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .imgWidth{
+        width: 100%;
+    }
+    .sectionBody{
+        max-width: 100%;
+    }
+}

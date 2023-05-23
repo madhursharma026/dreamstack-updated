@@ -1,0 +1,63 @@
+.subHeading {
+    letter-spacing: .04em !important;
+    color: #E13D4B;
+    font-size: 1.125rem;
+    margin-bottom: 16px !important;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.imageInfo{
+    font-size: 14px !important;
+    margin-top: .5rem !important;
+    text-align: center !important;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.subBody {
+    letter-spacing: -.02em;
+    font-size: 24px !important;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .subHeading {
+        text-align: center;
+    }
+
+    .subBody {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .logoStyle {
+        border: 1px solid #e6e6e6;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .logoSize {
+        max-width: 162px;
+    }
+}
