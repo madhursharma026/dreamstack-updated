@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from '../../../styles/Homepage/MorePowerToYou.module.css'
-import Images10 from "../../media/Turing-Images/turing-image-10.jpeg";
+import Images10 from "../../media/Turing-Images/turing-images-10.png";
 
 export default function Applications() {
     return (

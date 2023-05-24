@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import styles from '../../../styles/Turing/IntroSection.module.css';
-import Images1 from "../../media/Turing-Images/turing-image-1.jpeg";
-import Images2 from "../../media/Turing-Images/turing-image-2.jpeg";
-import Images3 from "../../media/Turing-Images/turing-image-3.jpeg";
-import Images4 from "../../media/Turing-Images/turing-image-4.jpeg";
-import Images5 from "../../media/Turing-Images/turing-image-5.jpeg";
-import Images6 from "../../media/Turing-Images/turing-image-6.jpeg";
-import Images7 from "../../media/Turing-Images/turing-image-7.jpeg";
+import Images1 from "../../media/Turing-Images/turing-images-1.jpeg";
+import Images2 from "../../media/Turing-Images/turing-images-2.png";
+import Images3 from "../../media/Turing-Images/turing-images-3.png";
+import Images4 from "../../media/Turing-Images/turing-images-4.png";
+import Images5 from "../../media/Turing-Images/turing-images-5.png";
+import Images6 from "../../media/Turing-Images/turing-images-6.png";
+import Images7 from "../../media/Turing-Images/turing-images-7.png";
 
 export default function IntroSection() {
     const router = useRouter();

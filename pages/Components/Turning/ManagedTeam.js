@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from '../../../styles/Homepage/MorePowerToYou.module.css'
-import Images9 from "../../media/Turing-Images/turing-image-9.jpeg";
+import Images9 from "../../media/Turing-Images/turing-images-9.png";
 
 export default function ManagedTeam() {
     return (

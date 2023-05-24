@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from '../../../styles/Homepage/MorePowerToYou.module.css'
-import Images11 from "../../media/Turing-Images/turing-image-11.jpeg";
-import Images12 from "../../media/Turing-Images/turing-image-12.jpeg";
+import Images11 from "../../media/Turing-Images/turing-images-11.png";
+import Images12 from "../../media/Turing-Images/turing-images-12.png";
 
 export default function QualtityCostRatio() {
     return (
