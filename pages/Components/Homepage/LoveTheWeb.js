@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Form from 'react-bootstrap/Form';
+import Image16 from "../../media/Homepage-Images/homepage-image-16.png";
 import styles from '../../../styles/Homepage/LoveTheWeb.module.css'
 
 export default function LoveTheWeb() {
@@ -18,7 +19,7 @@ export default function LoveTheWeb() {
         <div className={`pt-3 my-3 ${styles.ContainerWidth}`}>
             <div className="row px-3">
                 <div className={`col-md-6 ${styles.imgSection}`}>
-                    <img src="https://www.mozilla.org/media/img/home/2018/newsletter-graphic.3debb24fbacc.png" alt="#ImgNotFound" />
+                    <img src={Image16.src} alt="#ImgNotFound" />
                 </div>
                 <div className={`col-md-6 ${styles.formSection}`}>
                     {showNextData === false ?
@@ -131,9 +132,9 @@ export default function LoveTheWeb() {
                             <button type="submit" class={`btn w-100 ${styles.formSubmitBtn} ${visibleForm ? 'mb-5' : ''}`}><b>Sign Up Now</b></button>
                         </form>
                         :
-                        <div style={{marginLeft:'auto', marginRight:'auto', marginTop:'50px', maxWidth:'500px', width:'100%'}}>
-                        <h1>Thanks!</h1>
-                        <h6>If you haven’t previously confirmed a subscription to a Dreamstack-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us.</h6>
+                        <div style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '50px', maxWidth: '500px', width: '100%' }}>
+                            <h1>Thanks!</h1>
+                            <h6>If you haven’t previously confirmed a subscription to a Dreamstack-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us.</h6>
                         </div>
                     }
                 </div>

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image6 from "../../media/Homepage-Images/homepage-image-6.png";
 import styles from '../../../styles/Homepage/MorePowerToYou.module.css'
 
 export default function MorePowerToYou() {
@@ -6,7 +7,7 @@ export default function MorePowerToYou() {
             <div className={`py-5 mt-5 ${styles.ContainerWidth}`}>
                 <div className="row px-3 text-center">
                     <div className={`col-md-6`}>
-                        <img className='w-100' src="https://d2mk45aasx86xg.cloudfront.net/hire_developers_00c8cc066c.svg" alt="Dreamstack" style={{ maxWidth: '500px', maxHeight: "500px" }} />
+                        <img className='w-100' src={Image6.src} alt="Dreamstack" style={{ maxWidth: '500px', maxHeight: "500px" }} />
                     </div>
                     <div className={`col-md-6 mt-lg-5 pt-md-5 ${styles.tryPocketContent}`}>
                         <h1 className={`${styles.sectionTitle} pt-5`}>Tired of traditional recruiting to hire software developers?</h1>

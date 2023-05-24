@@ -1,4 +1,8 @@
 import styles from '../../../styles/cybersecurity/Insights2.module.css';
+import Images3 from "../../media/Cybersecurity-Images/cybersecurity-image-3.jpeg";
+import Images4 from "../../media/Cybersecurity-Images/cybersecurity-image-4.jpeg";
+import Images5 from "../../media/Cybersecurity-Images/cybersecurity-image-5.jpeg";
+import Images6 from "../../media/Cybersecurity-Images/cybersecurity-image-6.jpeg";
 
 export default function Insights2() {
     return (
@@ -8,7 +12,7 @@ export default function Insights2() {
                 <div className="row">
                     <div className="col-lg-3 col-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/cq5dam.thumbnail.480.480%20(1):Small?wid=387&hei=458&dpr=off" alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
+                            <img src={Images3.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
                             <div class={`${styles.topLeft}`}>
                                 <h3 className='pt-2'>Security is key to growth </h3>
                             </div>
@@ -16,7 +20,7 @@ export default function Insights2() {
                     </div>
                     <div className="col-lg-3 col-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/tcs-crystallus-accelerate-card-1330x1270:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
+                            <img src={Images4.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
                             <div class={`${styles.topLeft}`}>
                                 <h3 className='pt-2'>Security is key to growth </h3>
                             </div>
@@ -24,7 +28,7 @@ export default function Insights2() {
                     </div>
                     <div className="col-lg-3 col-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/cloud-security-automation-cyber-hygiene-card-1330x1270:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
+                            <img src={Images5.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
                             <div class={`${styles.topLeft}`}>
                                 <h3 className='pt-2'>Security is key to growth </h3>
                             </div>
@@ -32,7 +36,7 @@ export default function Insights2() {
                     </div>
                     <div className="col-lg-3 col-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/snn-inline-2:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
+                            <img src={Images6.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
                             <div class={`${styles.topLeft}`}>
                                 <h3 className='pt-2'>Security is key to growth </h3>
                             </div>

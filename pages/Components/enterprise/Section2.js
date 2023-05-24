@@ -1,4 +1,5 @@
 import styles from '../../../styles/DataAndAnalytics/Section2.module.css';
+import Images2 from "../../media/Enterprise-Images/enterprise-image-2.jpeg";
 
 export default function Section2() {
     return (
@@ -12,7 +13,7 @@ export default function Section2() {
                         </div>
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5 text-center">
-                        <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/banner-6:Extra-Medium?wid=820&hei=681&dpr=off" alt="#ImgNotFound"  className={`${styles.imgWidth}`} />
+                        <img src={Images2.src} alt="#ImgNotFound"  className={`${styles.imgWidth}`} />
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from '../../../styles/cybersecurity/TalkToExpert.module.css';
+import Image5 from "../../media/DataAndAnalytics-Images/DataAndAnalytics-image-5.jpeg";
 
 export default function TalkToExpert() {
     return (
@@ -7,7 +8,7 @@ export default function TalkToExpert() {
             <div className={`${styles.ContainerWidth} py-4`}>
                 <div className="row">
                     <div className="col-md-6 pt-3">
-                        <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/harness-data-tab:Extra-Medium?wid=820&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' style={{maxHeight:"300px"}} />
+                        <img src={Image5.src} alt="#ImgNotFound" className='w-100' style={{maxHeight:"300px"}} />
                     </div>
                     <div className={`col-md-6 ${styles.rightSide} pt-3`}>
                         <h1 className={`${styles.sectionTitle} text-white`}>Transformation starts here</h1>

@@ -1,4 +1,5 @@
 import styles from '../../../styles/DataAndAnalytics/Section2.module.css';
+import Images1 from "../../media/WhoWeAre-Images/WhoWeAre-image-1.jpeg";
 
 export default function Section2() {
     return (
@@ -14,7 +15,7 @@ export default function Section2() {
                         </div>
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-3 text-center" style={{ margin: 'auto' }}>
-                        <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/who-we-are-asset?wid=1000&hei=1000&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                        <img src={Images1.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                     </div>
                 </div>
             </div>

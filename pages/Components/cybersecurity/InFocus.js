@@ -1,4 +1,8 @@
 import styles from '../../../styles/cybersecurity/Insights.module.css';
+import Image13 from "../../media/Common-Images/common-image-13.jpeg";
+import Image14 from "../../media/Common-Images/common-image-14.jpeg";
+import Image15 from "../../media/Common-Images/common-image-15.jpeg";
+import Image16 from "../../media/Common-Images/common-image-16.jpeg";
 
 export default function InFocus() {
     return (
@@ -8,28 +12,28 @@ export default function InFocus() {
                 <div className="row">
                     <div className="col-lg-3 col-sm-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/cyber-vigilance-vulnerability-incident-response-card-1:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' />
+                            <img src={Image13.src} alt="#ImgNotFound" className='w-100' />
                             <p className={`${styles.sectionBody} text-black`}>A global credit bureau secures credit scores</p>
                             <h6 className="text-muted">Case Studies | 18 May 2022</h6>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/AdobeStock_404751193:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' />
+                            <img src={Image14.src} alt="#ImgNotFound" className='w-100' />
                             <p className={`${styles.sectionBody} text-black`}>A global credit bureau secures credit scores</p>
                             <h6 className="text-muted">Case Studies | 18 May 2022</h6>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/cb:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' />
+                            <img src={Image15.src} alt="#ImgNotFound" className='w-100' />
                             <p className={`${styles.sectionBody} text-black`}>A global credit bureau secures credit scores</p>
                             <h6 className="text-muted">Case Studies | 18 May 2022</h6>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/cloud-security-automation-card-1330x1270:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' />
+                            <img src={Image16.src} alt="#ImgNotFound" className='w-100' />
                             <p className={`${styles.sectionBody} text-black`}>A global credit bureau secures credit scores</p>
                             <h6 className="text-muted">Case Studies | 18 May 2022</h6>
                         </div>

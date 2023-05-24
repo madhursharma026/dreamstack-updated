@@ -1,4 +1,9 @@
 import Link from 'next/link';
+import Image1 from "../../media/Homepage-Images/homepage-image-1.png";
+import Image2 from "../../media/Homepage-Images/homepage-image-2.png";
+import Image3 from "../../media/Homepage-Images/homepage-image-3.png";
+import Image4 from "../../media/Homepage-Images/homepage-image-4.png";
+import Image5 from "../../media/Homepage-Images/homepage-image-5.png";
 import styles from '../../../styles/Homepage/IntroSection.module.css';
 
 export default function IntroSection() {
@@ -9,7 +14,7 @@ export default function IntroSection() {
                     <div className={`${styles.ContainerWidth}`}>
                         <div className={`row`}>
                             <div className={`col-lg-6 order-lg-2`}>
-                                <img src="https://a.storyblok.com/f/172398/2164x1460/bcae7390a6/hero-2x-e-commerce.png" alt="#ImgNotFound" className={`${styles.imgStyle} w-100 h-100`} />
+                                <img src={Image1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100 h-100`} />
                             </div>
                             <div className={`col-lg-6`}>
                                 <div className={`py-lg-5 ${styles.rightSide} px-3`}>
@@ -20,11 +25,11 @@ export default function IntroSection() {
                                     <div className={`${styles.makeDivAlignCenterAfterLGScrn}`}>
                                         <div className="row mt-4">
                                             <div className="col-lg-4">
-                                                <img src="https://hubstaff.com/images/logos/capterra-white.svg" alt="#ImgNotFound" />
+                                                <img src={Image2.src} alt="#ImgNotFound" />
                                                 <h6 className='p-2'>⭐⭐⭐⭐⭐</h6>
                                             </div>
                                             <div className="col-lg-4">
-                                                <img src="https://hubstaff.com/images/logos/g2-white.svg" alt="#ImgNotFound" />
+                                                <img src={Image3.src} alt="#ImgNotFound" />
                                                 <h6 className='p-2'>⭐⭐⭐⭐⭐</h6>
                                             </div>
                                         </div>
@@ -35,10 +40,10 @@ export default function IntroSection() {
                                                         Integrates with:
                                                     </div>
                                                     <div className="col-2">
-                                                        <img src="https://hubstaff.com/images/logos/quickbooks-mark.svg" alt="#ImgNotFound" className='w-100' />
+                                                        <img src={Image4.src} alt="#ImgNotFound" className='w-100' />
                                                     </div>
                                                     <div className="col-6">
-                                                        <img src="https://hubstaff.com/images/logos/freshbooks-mark.svg" alt="#ImgNotFound" className='w-100' />
+                                                        <img src={Image5.src} alt="#ImgNotFound" className='w-100' />
                                                     </div>
                                                 </div>
                                             </div>

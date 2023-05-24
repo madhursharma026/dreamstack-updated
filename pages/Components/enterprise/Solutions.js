@@ -1,4 +1,8 @@
 import Accordion from 'react-bootstrap/Accordion';
+import Image9 from "../../media/Common-Images/common-image-9.jpeg";
+import Image10 from "../../media/Common-Images/common-image-10.jpeg";
+import Image11 from "../../media/Common-Images/common-image-11.jpeg";
+import Image12 from "../../media/Common-Images/common-image-12.jpeg";
 import styles from '../../../styles/cybersecurity/Services.module.css';
 
 export default function Solutions() {
@@ -14,7 +18,7 @@ export default function Solutions() {
                     <Accordion.Body>
                         <div className="row">
                             <div className="col-md-4 col-lg-3">
-                                <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/products-platforms/products/CII/customer-intelligence-insights-her-banner.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
+                                <img src={Image9.src} alt="#ImgNotFound" width='100%' />
                             </div>
                             <div className="col-md-8 col-lg-9 mt-md-0 mt-3">
                                 <h4>Dreamstack Customer Intelligence & Insights helps organizations deliver relevant, connected, and personalized user experience in real-time. Learn how.</h4>
@@ -27,7 +31,7 @@ export default function Solutions() {
                     <Accordion.Body>
                         <div className="row">
                             <div className="col-md-4 col-lg-3" style={{ maxHeight: '200px', overflow: 'hidden' }}>
-                                <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/products-platforms/platforms/tcs-add/tap-tcs-card.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
+                                <img src={Image10.src} alt="#ImgNotFound" width='100%' />
                             </div>
                             <div className="col-md-8 col-lg-9 mt-md-0 mt-3">
                                 <h4>Read how Dreamstack solution that can be deployed as a source to pay suite helps firms adopt agile sourcing & procurement, automate intelligently, & engage suppliers.  </h4>
@@ -40,7 +44,7 @@ export default function Solutions() {
                     <Accordion.Body>
                         <div className="row">
                             <div className="col-md-4 col-lg-3" style={{ maxHeight: '200px', overflow: 'hidden' }}>
-                                <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/erp-transformation-cloud-Card-1330x1270.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
+                                <img src={Image11.src} alt="#ImgNotFound" width='100%' />
                             </div>
                             <div className="col-md-8 col-lg-9 mt-md-0 mt-3">
                                 <h4>Dreamstack ERP on Cloud platform, built around SAP S/4 HANA Core, provides real-time insights for informed decisions and helps accelerate digital transformation.</h4>
@@ -53,7 +57,7 @@ export default function Solutions() {
                     <Accordion.Body>
                         <div className="row">
                             <div className="col-md-4 col-lg-3" style={{ maxHeight: '200px', overflow: 'hidden' }}>
-                                <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/products-platforms/platforms/tcs-add/tcs-add-analytics-insights-intelligent-decision-making-card.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
+                                <img src={Image12.src} alt="#ImgNotFound" width='100%' />
                             </div>
                             <div className="col-md-8 col-lg-9 mt-md-0 mt-3">
                                 <h4>Dreamstack MasterCraft™ optimizes processes across software development, QA, low-code development, digital transformation, enterprise data quality, and privacy.</h4>

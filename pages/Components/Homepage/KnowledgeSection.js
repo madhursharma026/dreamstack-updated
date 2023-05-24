@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import leftArrow from "../../media/leftArrow.png";
-import rightArrow from "../../media/rightArrow.png";
+import leftArrow from "../../media/Homepage-Images/leftArrow.png";
+import rightArrow from "../../media/Homepage-Images/rightArrow.png";
 import styles from '../../../styles/Homepage/KnowledgeSection.module.css';
 
 export default function KnowledgeSection() {

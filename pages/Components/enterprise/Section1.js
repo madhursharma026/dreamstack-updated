@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from '../../../styles/Homepage/IntroSection.module.css';
+import Images1 from "../../media/Enterprise-Images/enterprise-image-1.jpeg";
 
 export default function Section1() {
     return (
@@ -8,7 +9,7 @@ export default function Section1() {
                 <div className={`${styles.ContainerWidth}`}>
                     <div className={`row`}>
                         <div className={`col-lg-6 order-lg-2`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/eas-wwd?wid=2000&hei=788&dpr=off" alt="#ImgNotFound" className={`${styles.imgStyle} w-100 h-100`} />
+                            <img src={Images1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100 h-100`} />
                         </div>
                         <div className={`col-lg-6 mt-lg-5 py-lg-5`}>
                             <div className={`${styles.rightSide} py-5 px-md-4 px-3`}>

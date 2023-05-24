@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import cyberSecurityImg from "../../media/cybersecurity.jpeg";
+import Images1 from "../../media/Cybersecurity-Images/cybersecurity-image-1.jpeg";
 import styles from '../../../styles/Homepage/IntroSection.module.css';
 
 export default function IntroSection() {
@@ -9,7 +9,7 @@ export default function IntroSection() {
                 <div className={`${styles.ContainerWidth}`}>
                     <div className={`row`}>
                         <div className={`col-lg-6 order-lg-2`}>
-                            <img src={cyberSecurityImg.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100 h-100`} />
+                            <img src={Images1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100 h-100`} />
                         </div>
                         <div className={`col-lg-6 mt-lg-5 py-lg-5`}>
                             <div className={`${styles.rightSide} py-5 px-md-4 px-3`}>

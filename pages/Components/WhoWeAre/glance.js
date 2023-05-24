@@ -1,4 +1,8 @@
 import styles from '../../../styles/WhoWeAre/Galance.module.css';
+import Images2 from "../../media/WhoWeAre-Images/WhoWeAre-image-2.jpeg";
+import Images3 from "../../media/WhoWeAre-Images/WhoWeAre-image-3.jpeg";
+import Images4 from "../../media/WhoWeAre-Images/WhoWeAre-image-4.jpeg";
+import Images5 from "../../media/WhoWeAre-Images/WhoWeAre-image-5.jpeg";
 
 export default function Galance() {
     return (
@@ -17,7 +21,7 @@ export default function Galance() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/build-together:Extra-Medium?wid=768&hei=637&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                <img src={Images2.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
                             </div>
                         </div>
                     </div>
@@ -33,7 +37,7 @@ export default function Galance() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/data-analytics-management-business-efficiency:Extra-Medium?wid=820&hei=680&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                <img src={Images3.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
                             </div>
                         </div>
                     </div>
@@ -49,7 +53,7 @@ export default function Galance() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/driving-innovation-in-high-tech-saas-paas:Extra-Medium?wid=820&hei=681&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                <img src={Images4.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
                             </div>
                         </div>
                     </div>
@@ -65,7 +69,7 @@ export default function Galance() {
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                                <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/master-journey-4:Extra-Medium?wid=820&hei=680&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
+                                <img src={Images5.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} style={{ height: "100%", maxHeight: '400px' }} />
                             </div>
                         </div>
                     </div>

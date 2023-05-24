@@ -1,4 +1,8 @@
 import styles from '../../../styles/cybersecurity/Insights.module.css';
+import Image13 from "../../media/Common-Images/common-image-13.jpeg";
+import Image14 from "../../media/Common-Images/common-image-14.jpeg";
+import Image15 from "../../media/Common-Images/common-image-15.jpeg";
+import Image16 from "../../media/Common-Images/common-image-16.jpeg";
 
 export default function News() {
     return (
@@ -8,7 +12,7 @@ export default function News() {
                 <div className="row">
                     <div className="col-lg-3 col-sm-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/cyber-vigilance-vulnerability-incident-response-card-1:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
+                            <img src={Image13.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
                             <div class={`${styles.bottomLeft}`}>
                                 <h2>Gartner Leader</h2>
                             </div>
@@ -16,7 +20,7 @@ export default function News() {
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/AdobeStock_404751193:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
+                            <img src={Image14.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
                             <div class={`${styles.bottomLeft}`}>
                                 <h2>Everest Ranking</h2>
                             </div>
@@ -24,7 +28,7 @@ export default function News() {
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/cb:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
+                            <img src={Image15.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
                             <div class={`${styles.bottomLeft}`}>
                                 <h2>IDC Marketscape</h2>
                             </div>
@@ -32,7 +36,7 @@ export default function News() {
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
                         <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/cloud-security-automation-card-1330x1270:Small?wid=575&hei=680&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
+                            <img src={Image16.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
                             <div class={`${styles.bottomLeft}`}>
                                 <h2>HFS Research</h2>
                             </div>
