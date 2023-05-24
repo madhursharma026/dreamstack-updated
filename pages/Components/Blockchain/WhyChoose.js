@@ -1,4 +1,5 @@
 import styles from '../../../styles/Blockchain/WhyChoose.module.css';
+import Images15 from "../../media/Blockchain-Images/blockchain-image-15.jpg";
 
 export default function WhyChoose() {
     return (
@@ -29,7 +30,7 @@ export default function WhyChoose() {
                                 </div>
                             </div>
                             <div className={`col-xl-4 ${styles.imgStyle}`}>
-                                <img src="https://as2.ftcdn.net/v2/jpg/02/42/00/09/1000_F_242000971_1DScTN17vesocvcWvsdgxA7kdTAqunHm.jpg" alt="#ImgNotFound" width='100%' />
+                            <img src={Images15.src} alt="#ImgNotFound" width='100%' />
                             </div>
                             <div className="col-md-6 col-xl-4">
                                 <div class="card w-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>

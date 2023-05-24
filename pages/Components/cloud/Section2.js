@@ -1,4 +1,5 @@
 import styles from '../../../styles/DataAndAnalytics/Section2.module.css';
+import Image2 from "../../media/Cloud-Images/cloud-image-2.png";
 
 export default function Section2() {
     return (
@@ -12,7 +13,7 @@ export default function Section2() {
                         </div>
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5 text-center">
-                        <img src="https://d2mk45aasx86xg.cloudfront.net/graph_be4a9cff45.svg" alt="#ImgNotFound" style={{width:'100%'}} />
+                        <img src={Image2.src} alt="#ImgNotFound" style={{width:'100%'}} />
                     </div>
                 </div>
             </div>

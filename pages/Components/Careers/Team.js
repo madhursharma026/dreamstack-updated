@@ -1,4 +1,5 @@
 import styles from '../../../styles/careers/Team.module.css';
+import Images6 from "../../media/Careers-Images/careers-image-6.png";
 
 export default function Team() {
     return (
@@ -6,7 +7,7 @@ export default function Team() {
             <div className={`${styles.ContainerWidth}`}>
                 <div className="row" style={{ maxWidth: '1200px', margin: 'auto' }}>
                     <div className="col-lg-6 order-lg-2 pt-md-0 pt-5 text-center" style={{ margin: 'auto' }}>
-                        <img src="https://a.storyblok.com/f/172398/18245a2c83/image_take-a-closer-look.png" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                        <img src={Images6.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5">
                         <h1 className={`${styles.sectionTitle} text-white`}>Take a closer look at the Dreamstack team</h1>

@@ -1,4 +1,5 @@
 import styles from '../../../styles/careers/Section2.module.css';
+import Images1 from "../../media/Careers-Images/careers-image-1.png";
 
 export default function Section2() {
     return (
@@ -6,7 +7,7 @@ export default function Section2() {
             <div className={`${styles.ContainerWidth}`}>
                 <div className="row" style={{ maxWidth: '1000px', margin: 'auto' }}>
                     <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
-                        <img src="https://d2mk45aasx86xg.cloudfront.net/profile_46abbc9a32.svg" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                        <img src={Images1.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5">
                         <h1 className={`${styles.sectionTitle}`}>Flexibility, productivity, joy — it’s what Dreamstack is all about</h1>

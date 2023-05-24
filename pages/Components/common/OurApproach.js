@@ -1,4 +1,8 @@
 import styles from '../../../styles/cybersecurity/OurApproach.module.css';
+import Image1 from "../../media/Common-Images/common-image-1.png";
+import Image2 from "../../media/Common-Images/common-image-2.png";
+import Image3 from "../../media/Common-Images/common-image-3.png";
+import Image4 from "../../media/Common-Images/common-image-4.png";
 
 export default function OurApproach() {
     return (
@@ -7,19 +11,19 @@ export default function OurApproach() {
                 <h6 className={`${styles.sectionTitle} text-white`}><b>OUR APPROACH</b></h6>
                 <div className="row">
                     <div className="col-lg-3 col-sm-6 text-center py-3">
-                        <img src="https://cdn-icons-png.flaticon.com/512/7709/7709895.png" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                        <img src={Image1.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                         <h6 className='text-white pt-4'><b>Enable business vision</b></h6>
                     </div>
                     <div className="col-lg-3 col-sm-6 text-center py-3">
-                        <img src="https://pngimg.com/uploads/sun/small/sun_PNG13426.png" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                        <img src={Image2.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                         <h6 className='text-white pt-4'><b>Empower data-led decisions</b></h6>
                     </div>
                     <div className="col-lg-3 col-sm-6 text-center py-3">
-                        <img src="https://www.pngmart.com/files/7/Security-PNG-Transparent-Picture.png" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                        <img src={Image3.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                         <h6 className='text-white pt-4'><b>Build resilience</b></h6>
                     </div>
                     <div className="col-lg-3 col-sm-6 text-center py-3">
-                        <img src="https://img.freepik.com/free-icon/user_318-865433.jpg?w=360" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                        <img src={Image4.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                         <h6 className='text-white pt-4'><b>Accelerate innovation</b></h6>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image1 from "../../media/Cloud-Images/cloud-image-1.jpeg";
 import styles from '../../../styles/Homepage/IntroSection.module.css';
 
 export default function Section1() {
@@ -8,7 +9,7 @@ export default function Section1() {
                 <div className={`${styles.ContainerWidth}`}>
                     <div className={`row`}>
                         <div className={`col-lg-6 order-lg-2`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/modernized-underwriting-platform-insurance-solution-cloud?wid=1900&hei=727&dpr=off" alt="#ImgNotFound" className={`${styles.imgStyle} w-100 h-100`} />
+                            <img src={Image1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100 h-100`} />
                         </div>
                         <div className={`col-lg-6 mt-lg-5 py-lg-5`}>
                             <div className={`${styles.rightSide} py-5 px-md-4 px-3`}>

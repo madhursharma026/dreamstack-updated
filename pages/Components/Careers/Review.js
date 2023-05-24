@@ -1,5 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import styles from '../../../styles/careers/Review.module.css';
+import Images3 from "../../media/Careers-Images/careers-image-3.jpeg";
+import Images4 from "../../media/Careers-Images/careers-image-4.jpeg";
+import Images5 from "../../media/Careers-Images/careers-image-5.jpeg";
 
 export default function Review() {
 
@@ -14,7 +17,7 @@ export default function Review() {
                 <Carousel.Item>
                     <div className="row" style={{ maxWidth: '1200px', margin: 'auto' }}>
                         <div className="col-lg-5 col-md-6 p-lg-5 pt-5 text-center">
-                            <img src="https://dreamstack.com/images/dev1.jpeg" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                            <img src={Images3.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                         </div>
                         <div className="col-lg-7 col-md-6 p-lg-5 pt-5">
                             <p className={`${styles.carouselBody}`}>The best part of working at Dreamstacker will forever be the flexibility in my schedule that allows me to see my wife and kids throughout the day. Besides that, I have the opportunity to work with incredibly talented and unique people from all over the world. I love it here.</p>
@@ -25,7 +28,7 @@ export default function Review() {
                 <Carousel.Item>
                     <div className="row" style={{ maxWidth: '1200px', margin: 'auto' }}>
                         <div className="col-lg-5 col-md-6 p-lg-5 pt-5 text-center">
-                            <img src="https://dreamstack.com/images/dev2.jpeg" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                            <img src={Images4.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                         </div>
                         <div className="col-lg-7 col-md-6 p-lg-5 pt-5">
                             <p className={`${styles.carouselBody}`}>Working at Dreamstacker feels like home. We are a team who is always ready to assist you when in doubt and who will always encourage you to become the best version of you.</p>
@@ -36,7 +39,7 @@ export default function Review() {
                 <Carousel.Item>
                     <div className="row" style={{ maxWidth: '1200px', margin: 'auto' }}>
                         <div className="col-lg-5 col-md-6 p-lg-5 pt-5 text-center">
-                            <img src="https://dreamstack.com/images/dev3.jpeg" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                            <img src={Images5.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                         </div>
                         <div className="col-lg-7 col-md-6 p-lg-5 pt-5">
                             <p className={`${styles.carouselBody}`}>Dreamstacker are so warm, and everyone can be professional and fun at the same time. I love how work-life balance is something that we make sure to practice well.</p>
