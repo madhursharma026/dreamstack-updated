@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import styles from '../../../styles/Homepage/MorePowerToYou.module.css'
+import Images11 from "../../media/Turing-Images/turing-image-11.jpeg";
+import Images12 from "../../media/Turing-Images/turing-image-12.jpeg";
 
 export default function QualtityCostRatio() {
     return (
@@ -9,7 +11,7 @@ export default function QualtityCostRatio() {
                 <p className={`${styles.sectionBody} px-3`}>Intelligent solutions require intelligent talent. We deeply vet and match the most suitable people for your solution—building customized teams across location, experience, technical expertise, and other key requirements.</p>
                 <div className="row px-3">
                     <div className={`col-md-6 h-100 order-md-2 text-center`} style={{ margin: 'auto' }}>
-                        <img className='w-100' src="https://d2mk45aasx86xg.cloudfront.net/Deeply_vetted_developers_04b706f9cc.svg" alt="#ImgNotFound" style={{ maxWidth: '400px' }} />
+                        <img className='w-100' src={Images11.src} alt="#ImgNotFound" style={{ maxWidth: '400px' }} />
                     </div>
                     <div className={`col-md-6 h-100`}>
                         <h3 className={`py-3`}><b>High quality/cost ratio</b></h3>
@@ -32,7 +34,7 @@ export default function QualtityCostRatio() {
 
                 <div className="row px-3">
                     <div className={`col-md-6 h-100 text-center`} style={{ margin: 'auto' }}>
-                        <img src="https://d2mk45aasx86xg.cloudfront.net/highest_quality_vetting_ff1984b9b2.svg" alt="#ImgNotFound" style={{ maxWidth: '400px' }} />
+                        <img src={Images12.src} alt="#ImgNotFound" style={{ maxWidth: '400px' }} />
                     </div>
                     <div className={`col-md-6 mt-5`}>
                         <h3 className={`py-3`}><b>Highest-quality vetting</b></h3>

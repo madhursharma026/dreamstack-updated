@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import styles from '../../../styles/Homepage/MorePowerToYou.module.css'
+import Images8 from "../../media/Turing-Images/turing-image-8.jpeg";
 
 export default function Trusted() {
     return (
         <div className={`py-5 mt-5 ${styles.ContainerWidth}`}>
             <div className="row px-3">
                 <div className={`col-md-6 text-center`}>
-                    <img className='w-100' src="https://d2mk45aasx86xg.cloudfront.net/AI_Services_f6eae42bac.svg" alt="#ImgNotFound" style={{ maxWidth: '500px', maxHeight: "500px" }} />
+                    <img className='w-100' src={Images8.src} alt="#ImgNotFound" style={{ maxWidth: '500px', maxHeight: "500px" }} />
                 </div>
                 <div className={`col-md-6 mt-lg-5 pt-md-5 ${styles.tryPocketContent}`}>
                     <h1 className={`${styles.sectionTitle} pt-5`}>Trusted AI and machine learning to drive your business</h1>
