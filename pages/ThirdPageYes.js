@@ -11,6 +11,12 @@ import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import Images2 from "./media/Turing-Images/turing-images-2.png";
+import Images3 from "./media/Turing-Images/turing-images-3.png";
+import Images4 from "./media/Turing-Images/turing-images-4.png";
+import Images5 from "./media/Turing-Images/turing-images-5.png";
+import Images6 from "./media/Turing-Images/turing-images-6.png";
+import Images7 from "./media/Turing-Images/turing-images-7.png";
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
@@ -99,26 +105,26 @@ export default function ThirdPageYes() {
                             <li className={`${styles.sectionBody}`}>We plan, staff, deliver, and manage technology projects and programs across several technical domains</li>
                             <li className={`${styles.sectionBody}`}>We get the right people for the job with the quality, speed, and cost effectiveness of our Talent Cloud</li>
                         </ul>
-                        <div className="row mt-5 pt-5">
-                            <div className="col-xxl-2 col-4 mt-3">
-                                <img src="https://pnglib.nyc3.cdn.digitaloceanspaces.com/uploads/2020/02/pepsi-logo_5e53a34c893dc.png" alt="#ImgNotFound" width='100%' />
-                            </div>
-                            <div className="col-xxl-2 col-4 mt-3">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Dell_Logo.png/1200px-Dell_Logo.png" alt="#ImgNotFound" width='100%' />
-                            </div>
-                            <div className="col-xxl-3 col-4 mt-3">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Johnson_and_Johnson_Logo.svg/2560px-Johnson_and_Johnson_Logo.svg.png" alt="#ImgNotFound" width='100%' />
-                            </div>
-                            <div className="col-xxl-2 col-5 mt-3">
-                                <img src="https://logodownload.org/wp-content/uploads/2018/02/reddit-logo-1.png" alt="#ImgNotFound" width='100%' />
-                            </div>
-                            <div className="col-xxl-1 col-3 mt-3">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Volvo-Iron-Mark-Black.svg/1200px-Volvo-Iron-Mark-Black.svg.png" alt="#ImgNotFound" width='100%' />
-                            </div>
-                            <div className="col-xxl-2 col-4 mt-3">
-                                <img src="https://logos-world.net/wp-content/uploads/2021/02/Disney-Logo.png" alt="#ImgNotFound" width='100%' />
-                            </div>
+                    <div className="row mt-5 pt-5">
+                        <div className="col-xxl-2 col-4 mt-3">
+                            <img src={Images2.src} alt="#ImgNotFound" width='100%' />
                         </div>
+                        <div className="col-xxl-2 col-4 mt-3">
+                            <img src={Images3.src} alt="#ImgNotFound" width='100%' />
+                        </div>
+                        <div className="col-xxl-3 col-4 mt-3">
+                            <img src={Images4.src} alt="#ImgNotFound" width='100%' />
+                        </div>
+                        <div className="col-xxl-2 col-5 mt-3">
+                            <img src={Images5.src} alt="#ImgNotFound" width='100%' />
+                        </div>
+                        <div className="col-xxl-1 col-3 mt-3">
+                            <img src={Images6.src} alt="#ImgNotFound" width='100%' />
+                        </div>
+                        <div className="col-xxl-2 col-4 mt-3">
+                            <img src={Images7.src} alt="#ImgNotFound" width='100%' />
+                        </div>
+                    </div>
                         <h5 className={`${styles.sectionBody} pt-3 text-center mb-5`}>
                             Trusted by 900+ companies, including
                         </h5>
