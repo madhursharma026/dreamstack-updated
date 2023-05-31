@@ -4,8 +4,8 @@ import Images10 from "../../media/Turing-Images/turing-images-10.png";
 
 export default function Applications() {
     return (
-        <div className={`py-5 ${styles.ContainerWidth}`}>
-            <div className="row px-3">
+        <div className={`py-5 px-md-4 px-3 ${styles.ContainerWidth}`}>
+            <div className="row">
                 <div className={`col-lg-6 text-center`}>
                     <img className='w-100' src={Images10.src} alt="#ImgNotFound" style={{ maxWidth: '420px', maxHeight: "420px" }} />
                 </div>

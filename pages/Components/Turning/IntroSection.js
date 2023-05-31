@@ -24,20 +24,22 @@ export default function IntroSection() {
 
 
     return (
-        <div className={`px-md-4 px-3 py-lg-0 py-5 mt-5 ${styles.IntroSection}`}>
+        <div className={`px-md-4 px-3 py-lg-0 py-5 pb-lg-5 pb-0 mt-5 ${styles.IntroSection}`}>
             <div className={`${styles.ContainerWidth}`}>
                 <div className="row">
                     <div className={`${styles.imgStyle} col-xl-6 col-lg-5 order-lg-2 pb-lg-0 pb-3`}>
+                        <div className={`m-lg-0 m-5 mb-lg-0 mb-3`}>
                         <img src={Images1.src} alt="#ImgNotFound" className={`w-100`} />
+                        </div>
                     </div>
                     <div className={`col-xl-6 col-lg-7 py-5 mt-xxl-5`}>
                         <h1 className={`${styles.sectionTitle} pt-lg-5`}>
                             The world’s best engineering team for your project, vetted by AI
                         </h1>
                         <h5 className={`${styles.sectionBody} pt-2`}>
-                            Your software engineering challenges. <br />
-                            Dreamstack modern development methodology. <br />
-                            An intelligent solution, every time. <br /><br />
+                            Your software engineering challenges. <br className={`${styles.hideAfterLGScrn}`} />
+                            Dreamstack modern development methodology. <br className={`${styles.hideAfterLGScrn}`} />
+                            An intelligent solution, every time. <br className={`${styles.hideAfterLGScrn}`} /><br className={`${styles.hideAfterLGScrn}`} />
 
                             Customized strategy and execution, led by our internal industry experts and built by our deep-vetting global talent platform.
                         </h5>

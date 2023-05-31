@@ -4,8 +4,8 @@ import Images8 from "../../media/Turing-Images/turing-images-8.png";
 
 export default function Trusted() {
     return (
-        <div className={`py-5 ${styles.ContainerWidth}`}>
-            <div className="row px-3">
+        <div className={`py-5 px-md-4 px-3 ${styles.ContainerWidth}`}>
+            <div className="row">
                 <div className={`col-lg-6 text-center`}>
                     <img className='w-100' src={Images8.src} alt="#ImgNotFound" style={{ maxWidth: '410px', maxHeight: "410px" }} />
                 </div>

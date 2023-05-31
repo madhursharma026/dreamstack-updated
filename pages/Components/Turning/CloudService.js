@@ -4,9 +4,9 @@ import Images9 from "../../media/Turing-Images/turing-images-9.png";
 
 export default function CloudService() {
     return (
-        <div className={`py-5`} style={{background: '#F8F8F8'}}>
+        <div className={`py-5 px-md-4 px-3`} style={{background: '#F8F8F8'}}>
         <div className={`${styles.ContainerWidth}`}>
-            <div className="row px-3">
+            <div className="row">
                 <div className={`col-lg-6 order-lg-2 text-center`} style={{margin: 'auto'}}>
                     <img className='w-100' src={Images9.src} alt="#ImgNotFound" style={{ maxWidth: '410px', maxHeight: "410px" }} />
                 </div>
