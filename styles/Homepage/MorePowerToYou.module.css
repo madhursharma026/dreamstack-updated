@@ -17,14 +17,50 @@
     text-decoration: none;
 }
 
+.tag1 {
+    list-style-image: url(../../pages/media/Turing-Images/turing-images-15.png);
+    margin-left: 15px;
+}
+
+.tag2 {
+    list-style-image: url(../../pages/media/Turing-Images/turing-images-16.png);
+    margin-left: 15px;
+}
+
+.tag3 {
+    list-style-image: url(../../pages/media/Turing-Images/turing-images-17.png);
+    margin-left: 15px;
+}
+
+.tag4 {
+    list-style-image: url(../../pages/media/Turing-Images/turing-images-18.png);
+    margin-left: 15px;
+}
+
 @media (max-width: 767px) {
     .tryPocketContent {
         text-align: center;
     }
 }
 
+.showAfterLGScrn {
+    display: block;
+}
+
+.hideAfterLGScrn {
+    display: none;
+}
+
 @media (min-width: 992px) {
     .ContainerWidth {
         padding: 0 60px;
+    }
+
+    .showAfterLGScrn {
+        display: none;
+    }
+
+    .hideAfterLGScrn {
+        display: block;
     }
 }
