@@ -5,9 +5,9 @@ import Images12 from "../../media/Turing-Images/turing-images-12.png";
 
 export default function QualtityCostRatio() {
     return (
-        <div className={`px-md-4 px-3 py-lg-0 py-5 mt-lg-5 mt-0`}>
+        <div className={`px-md-4 px-3 py-lg-3 py-5 mt-lg-5 mt-0`}>
             <div className={`${styles.ContainerWidth}`}>
-                <h1 className={`${styles.sectionTitle}`}>The right development talent, only from Dreamstack</h1>
+                <h2>The right development talent, only from Dreamstack</h2>
                 <p className={`${styles.sectionBody}`}>Intelligent solutions require intelligent talent. We deeply vet and match the most suitable people for your solution—building customized teams across location, experience, technical expertise, and other key requirements.</p>
                 <div className="row">
                     <h2 className={`py-3 ${styles.showAfterLGScrn}`} style={{ fontWeight: '540' }}>High quality/cost ratio</h2>

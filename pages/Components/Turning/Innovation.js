@@ -2,8 +2,8 @@ import styles from '../../../styles/Turing/Innovation.module.css';
 
 export default function Innovation() {
     return (
-        <div className={`px-md-4 px-3 py-lg-0 py-5 mt-lg-5 mt-0 ${styles.InnovationSection}`}>
-            <div className={`${styles.ContainerWidth} py-3`}>
+        <div className={`px-md-4 px-3 py-lg-0 py-5 mt-lg-5 mt-0 pb-lg-5 pb-5 ${styles.InnovationSection}`}>
+            <div className={`${styles.ContainerWidth} py-lg-4 py-3`}>
                 <h5 className={`${styles.sectionTitle} pt-lg-5`}>
                     Intelligent innovation led by industry experts
                 </h5>
