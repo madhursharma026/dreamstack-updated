@@ -1,0 +1,13 @@
+.navOptionAfterLG {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .navOptionBeforeLG {
+        display: none;
+    }
+
+    .navOptionAfterLG {
+        display: block;
+    }
+}
