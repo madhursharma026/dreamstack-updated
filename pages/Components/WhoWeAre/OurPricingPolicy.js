@@ -8,31 +8,31 @@ export default function OurPricingPolicy() {
                 <p className={`${styles.sectionContent}`}>
                     Depending on a project and the nature of the delivered service, we resort to one of the following pricing models:
                 </p>
-                <div class='row mx-sm-0 mx-1'>
+                <div className='row mx-sm-0 mx-1'>
                     <div className="col-sm-6 col-lg-3 mt-3" >
-                        <div class="card h-100" style={{ boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', border: '0' }}>
-                            <div class="card-body text-center">
+                        <div className="card h-100" style={{ boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', border: '0' }}>
+                            <div className="card-body text-center">
                                 <h2>Fixed price</h2>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-6 col-lg-3 mt-3" >
-                        <div class="card h-100" style={{ boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', border: '0' }}>
-                            <div class="card-body text-center">
+                        <div className="card h-100" style={{ boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', border: '0' }}>
+                            <div className="card-body text-center">
                                 <h2>Time & Material</h2>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-6 col-lg-3 mt-3" >
-                        <div class="card h-100" style={{ boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', border: '0' }}>
-                            <div class="card-body text-center">
+                        <div className="card h-100" style={{ boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', border: '0' }}>
+                            <div className="card-body text-center">
                                 <h2>Consumption-based pricing</h2>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-6 col-lg-3 mt-3" >
-                        <div class="card h-100" style={{ boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', border: '0' }}>
-                            <div class="card-body text-center">
+                        <div className="card h-100" style={{ boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', border: '0' }}>
+                            <div className="card-body text-center">
                                 <h2>Monthly subscription fee</h2>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function OurPricingPolicy() {
                             </h5>
                         </div>
                         <div className="col-lg-2 mt-3 text-center">
-                            <button type="button" class="btn btn-primary px-3 py-2"><b>Talk to us</b></button>
+                            <button type="button" className="btn btn-primary px-3 py-2"><b>Talk to us</b></button>
                         </div>
                     </div>
                 </div>

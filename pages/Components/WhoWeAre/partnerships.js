@@ -8,43 +8,43 @@ export default function Partnerships() {
                 <p className={`${styles.sectionContent}`}>
                     Throughout our history, we have developed a number of <b>partnerships with technology leaders</b>, who highly attested our technical competencies and the ability to understand our customers’ needs and translate them into quality services:
                 </p>
-                <div class={`${styles.imageSlider}`}>
-                    <div class={`${styles.imageSliderTrack}`}>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-1.png" style={{ width: '100%' }} />
+                <div className={`${styles.imageSlider}`}>
+                    <div className={`${styles.imageSliderTrack}`}>
+                    <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_495-400-240-20200825155550.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-2.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_378-400-240-20200818104852.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-3.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_496-400-240-20201005153604.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-4.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_460-400-240-20210318090002.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-5.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_468-400-240-20220201184043.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-6.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_417-400-240-20200909171949.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-7.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_491-400-240-20220525120729.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-8.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_499-400-240-20200818121742.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-9.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_37-400-240-20200818184450.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-10.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_501-400-240-20200818122128.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-26.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_498-400-240-20200825155527.jpg" style={{ width: '100%' }} />
                         </div>
-                        <div class={`${styles.slide}`}>
-                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-12.png" style={{ width: '100%' }} />
+                        <div className={`${styles.slide}`}>
+                            <img src="https://whc.unesco.org/uploads/thumbs/organization_472-400-240-20220201194805.jpg" style={{ width: '100%' }} />
                         </div>
                     </div>
                 </div>

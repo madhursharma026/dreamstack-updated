@@ -9,7 +9,7 @@ export default function Section6() {
                     <br />
                     No credit card needed. Cancel anytime.</p>
                 <div className='text-center'>
-                    <button type="button" class={`btn ${styles.ReadAllAboutit}`}>Try Dreamstack Now</button>
+                    <button type="button" className={`btn ${styles.ReadAllAboutit}`}>Try Dreamstack Now</button>
                 </div>
             </div>
         </div>

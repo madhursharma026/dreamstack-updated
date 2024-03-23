@@ -7,9 +7,9 @@ import Images5 from "../../media/WhoWeAre-Images/WhoWeAre-image-5.jpeg";
 export default function Galance() {
     return (
         <div className={`px-md-4 px-3 py-md-5 py-3 pb-lg-0 pb-5 bg-black`}>
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+            <div id="carouselExample" className="carousel slide">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
                         <div className={`row ${styles.ContainerWidth}`}>
                             <h5 className="text-white">
                                 1 / 4
@@ -25,7 +25,7 @@ export default function Galance() {
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <div className={`row ${styles.ContainerWidth}`}>
                             <h5 className="text-white">
                                 2 / 4
@@ -41,7 +41,7 @@ export default function Galance() {
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <div className={`row ${styles.ContainerWidth}`}>
                             <h5 className="text-white">
                                 3 / 4
@@ -57,7 +57,7 @@ export default function Galance() {
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <div className={`row ${styles.ContainerWidth}`}>
                             <h5 className="text-white">
                                 4 / 4
@@ -74,13 +74,13 @@ export default function Galance() {
                         </div>
                     </div>
                 </div>
-                <button class={`${styles.leftArrow} carousel-control-prev`} type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <button className={`${styles.leftArrow} carousel-control-prev`} type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                     <img src="https://www.svgrepo.com/show/346529/arrow-left-circle.svg" alt="#ImgNotFound" width='100px' height='100px' />
-                    <span class="visually-hidden">Previous</span>
+                    <span className="visually-hidden">Previous</span>
                 </button>
-                <button class={`${styles.rightArrow} carousel-control-next`} type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <button className={`${styles.rightArrow} carousel-control-next`} type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                     <img src="https://www.svgrepo.com/show/346529/arrow-left-circle.svg" alt="#ImgNotFound" width='100px' height='100px' />
-                    <span class="visually-hidden">Next</span>
+                    <span className="visually-hidden">Next</span>
                 </button>
             </div>
         </div>

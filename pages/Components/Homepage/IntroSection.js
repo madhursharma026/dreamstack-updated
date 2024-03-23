@@ -33,8 +33,8 @@ export default function IntroSection() {
                                                 <h6 className='p-2'>⭐⭐⭐⭐⭐</h6>
                                             </div>
                                         </div>
-                                        <div class={`card ${styles.showAfterLGScrn} mb-4`}>
-                                            <div class="card-body">
+                                        <div className={`card ${styles.showAfterLGScrn} mb-4`}>
+                                            <div className="card-body">
                                                 <div className="row">
                                                     <div className="col-4">
                                                         Integrates with:
@@ -54,8 +54,8 @@ export default function IntroSection() {
                         </div>
                     </div>
                 </div>
-                <div class={`card ${styles.hideAfterLGScrn}`} style={{ width: "380px", marginTop: "-40px", marginLeft: '73%', position: "absolute" }}>
-                    <div class="card-body">
+                <div className={`card ${styles.hideAfterLGScrn}`} style={{ width: "380px", marginTop: "-40px", marginLeft: '73%', position: "absolute" }}>
+                    <div className="card-body">
                         Integrates with:
                         <img src="https://hubstaff.com/images/logos/quickbooks-mark.svg" alt="#ImgNotFound" className='px-2' />
                         <img src="https://hubstaff.com/images/logos/freshbooks-mark.svg" alt="#ImgNotFound" className='px-2' />

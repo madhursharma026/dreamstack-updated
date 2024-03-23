@@ -5,10 +5,6 @@ import styles from '../../styles/Footer.module.css'
 export default function Footer() {
     return (
         <>
- <div>
-      {/* JSX code for your component */}
- 
-    </div>
             <div className={`${styles.footerPadding} ${styles.footerBG} px-md-4 px-3`}>
                 <div className={`${styles.ContainerWidth}`}>
                     <img src={Logo.src} alt="#ImgNotFound" width="80px" height='80px' />
@@ -19,7 +15,7 @@ export default function Footer() {
                                 <li><Link href="/" className={`${styles.footer_options_second}`}>Language</Link></li>
                                 <select className={`form-select mt-2 ${styles.languageSelectBar}`}>
                                     <option value="">English &emsp;&emsp;&emsp;&emsp;</option>
-                            
+
                                 </select>
                             </ul>
                         </div>
@@ -38,7 +34,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            
         </>
     )
 }

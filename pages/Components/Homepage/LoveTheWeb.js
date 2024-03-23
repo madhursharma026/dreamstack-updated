@@ -26,8 +26,8 @@ export default function LoveTheWeb() {
                         <form onSubmit={() => formSubmit()}>
                             <h1 className={`${styles.sectionTitle}`}>Love the Web</h1>
                             <p className={`${styles.sectionBody}`}>Get the Dreamstack newsletters and help us keep the web open and free.</p>
-                            <div class="my-3">
-                                <div class="my-3">
+                            <div className="my-3">
+                                <div className="my-3">
                                     <Form.Group controlId="validationCustom01" style={{ width: '100%' }}>
                                         <Form.Label><b>Your email address:</b></Form.Label>
                                         <Form.Control onClick={() => visibleFormFunction()}
@@ -41,7 +41,7 @@ export default function LoveTheWeb() {
                             </div>
                             {visibleForm ?
                                 <>
-                                    <div class="my-3">
+                                    <div className="my-3">
                                         <Form.Group controlId="validationCustom01" style={{ width: '100%' }}>
                                             <Form.Label><b>Select country or region:</b></Form.Label>
                                             <Form.Select aria-label="Default select example" required
@@ -52,7 +52,7 @@ export default function LoveTheWeb() {
                                             </Form.Select>
                                         </Form.Group>
                                     </div>
-                                    <div class="my-3">
+                                    <div className="my-3">
                                         <Form.Group controlId="validationCustom02" style={{ width: '100%' }}>
                                             <Form.Label><b>Select language:</b></Form.Label>
                                             <Form.Select aria-label="Default select example" required
@@ -63,7 +63,7 @@ export default function LoveTheWeb() {
                                             </Form.Select>
                                         </Form.Group>
                                     </div>
-                                    <div class="my-3">
+                                    <div className="my-3">
                                         <Form.Label><b>I want information about:</b></Form.Label>
                                         <div className="row">
                                             <div className="col-6">
@@ -86,7 +86,7 @@ export default function LoveTheWeb() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="my-3">
+                                    <div className="my-3">
                                         <Form.Label><b>Format:</b></Form.Label>
                                         <div className="row">
                                             <div className="col-6">
@@ -129,7 +129,7 @@ export default function LoveTheWeb() {
                                 :
                                 <></>
                             }
-                            <button type="submit" class={`btn w-100 ${styles.formSubmitBtn} ${visibleForm ? 'mb-5' : ''}`}><b>Sign Up Now</b></button>
+                            <button type="submit" className={`btn w-100 ${styles.formSubmitBtn} ${visibleForm ? 'mb-5' : ''}`}><b>Sign Up Now</b></button>
                         </form>
                         :
                         <div style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '50px', maxWidth: '500px', width: '100%' }}>

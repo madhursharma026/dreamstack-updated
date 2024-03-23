@@ -167,7 +167,7 @@ export default function KnowledgeSection() {
                         </>
                         :
                         <div className="text-center mt-lg-4 pt-lg-5 mt-4 pt-5">
-                            <span class="spinner-border spinner-border-sm text-white" role="status" aria-hidden="true" style={{ width: "30px", height: '30px' }}></span>
+                            <span className="spinner-border spinner-border-sm text-white" role="status" aria-hidden="true" style={{ width: "30px", height: '30px' }}></span>
                             <br />
                             <h1 className="text-white">Ignite your transformation</h1>
                             <p className="text-white">We're matching your answers with the latest Dreamstack insights and expertise</p>

@@ -44,20 +44,20 @@ export default function IntroSection() {
                             Customized strategy and execution, led by our internal industry experts and built by our deep-vetting global talent platform.
                         </h5>
                         <form onSubmit={(e) => moveOnFirstboardingPages(e)} className={`${styles.formStyleBeforeLGScrn}`}>
-                            <div class="input-group my-5">
-                                <input type="email" required class="form-control" placeholder="Your work email" aria-describedby="basic-addon2" onChange={(e) => setEmailAddress(e.target.value)}
+                            <div className="input-group my-5">
+                                <input type="email" required className="form-control" placeholder="Your work email" aria-describedby="basic-addon2" onChange={(e) => setEmailAddress(e.target.value)}
                                     style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }} />
-                                <button type='submit' class="input-group-text bg-primary text-white" id="basic-addon2" style={{ border: 'none', fontSize: '16px', lineHeight: '1.3', padding: '15px 20px', fontWeight: '550' }}>Talk to an Expert</button>
+                                <button type='submit' className="input-group-text bg-primary text-white" id="basic-addon2" style={{ border: 'none', fontSize: '16px', lineHeight: '1.3', padding: '15px 20px', fontWeight: '550' }}>Talk to an Expert</button>
                             </div>
                         </form>
                         <form onSubmit={(e) => moveOnFirstboardingPages(e)} className={`${styles.formStyleAfterLGScrn} my-3`}>
-                            {/* <div class="input-group my-5">
-                                <input type="email" required class="form-control" placeholder="Your work email" aria-describedby="basic-addon2" onChange={(e) => setEmailAddress(e.target.value)}
+                            {/* <div className="input-group my-5">
+                                <input type="email" required className="form-control" placeholder="Your work email" aria-describedby="basic-addon2" onChange={(e) => setEmailAddress(e.target.value)}
                                     style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }} />
-                                <button type='submit' class="input-group-text bg-primary text-white" id="basic-addon2" style={{ border: 'none', fontSize: '16px', lineHeight: '1.3', padding: '15px 20px', fontWeight: '550' }}>Talk to an Expert</button>
+                                <button type='submit' className="input-group-text bg-primary text-white" id="basic-addon2" style={{ border: 'none', fontSize: '16px', lineHeight: '1.3', padding: '15px 20px', fontWeight: '550' }}>Talk to an Expert</button>
                             </div> */}
-                            <input type="email" required class="form-control" placeholder="Your work email" onChange={(e) => setEmailAddress(e.target.value)} style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }} />
-                            <button type='submit' class="bg-primary text-white w-100 mt-2" style={{ border: 'none', fontSize: '16px', borderRadius: '6px', lineHeight: '1.3', padding: '15px 20px', fontWeight: '550' }}>Talk to an Expert</button>
+                            <input type="email" required className="form-control" placeholder="Your work email" onChange={(e) => setEmailAddress(e.target.value)} style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }} />
+                            <button type='submit' className="bg-primary text-white w-100 mt-2" style={{ border: 'none', fontSize: '16px', borderRadius: '6px', lineHeight: '1.3', padding: '15px 20px', fontWeight: '550' }}>Talk to an Expert</button>
                         </form>
                         <h5 className={`${styles.sectionBody} pt-2`}>
                             Trusted by 900+ companies, including

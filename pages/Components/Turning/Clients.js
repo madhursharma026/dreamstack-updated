@@ -1,4 +1,5 @@
 import styles from '../../../styles/Turing/Clients.module.css';
+import Images19 from "../../media/Turing-Images/turing-images-19.png";
 
 export default function Clients() {
     return (
@@ -9,10 +10,10 @@ export default function Clients() {
                 <div className="row">
                     <div className="col-md-4 mt-lg-3 mt-4">
                         <div style={{ background: 'transparent linear-gradient(104deg,#6c7bd4,#56a8f7) 0 0 no-repeat padding-box', borderTopLeftRadius: '5px', borderTopRightRadius: '5px', textAlign:'right' }}> 
-                        <img src="https://www.turing.com/icons/quote.svg" alt="#ImgNotFound" width="40px" height='40px' className='m-1' />
+                        <img src={Images19.src} alt="#ImgNotFound" width="40px" height='40px' className='m-1' />
                         </div>
-                        <div class="card" style={{ boxShadow: 'rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px', borderTopLeftRadius: '0', borderTopRightRadius: '0' }}>
-                            <div class="card-body">
+                        <div className="card" style={{ boxShadow: 'rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px', borderTopLeftRadius: '0', borderTopRightRadius: '0' }}>
+                            <div className="card-body">
                                <h5>Dreamstack has been a valuable partner in helping us grow our team. We use Dreamstack because it helps us quickly find great talent globally in the ultra-competitive market climate.</h5>
                                <br /><br />
                                <h5 className='text-primary'>HR Manager of a US-based, multimillion-dollar software solution provider</h5>
@@ -21,10 +22,10 @@ export default function Clients() {
                     </div>
                     <div className="col-md-4 mt-lg-3 mt-4">
                         <div style={{ background: 'transparent linear-gradient(104deg,#6c7bd4,#56a8f7) 0 0 no-repeat padding-box', borderTopLeftRadius: '5px', borderTopRightRadius: '5px', textAlign:'right' }}> 
-                        <img src="https://www.turing.com/icons/quote.svg" alt="#ImgNotFound" width="40px" height='40px' className='m-1' />
+                        <img src={Images19.src} alt="#ImgNotFound" width="40px" height='40px' className='m-1' />
                         </div>
-                        <div class="card" style={{ boxShadow: 'rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px', borderTopLeftRadius: '0', borderTopRightRadius: '0' }}>
-                            <div class="card-body">
+                        <div className="card" style={{ boxShadow: 'rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px', borderTopLeftRadius: '0', borderTopRightRadius: '0' }}>
+                            <div className="card-body">
                                <h5>Dreamstack has been a valuable partner in helping us grow our team. We use Dreamstack because it helps us quickly find great talent globally in the ultra-competitive market climate.</h5>
                                <br /><br />
                                <h5 className='text-primary'>HR Manager of a US-based, multimillion-dollar software solution provider</h5>
@@ -33,10 +34,10 @@ export default function Clients() {
                     </div>
                     <div className="col-md-4 mt-lg-3 mt-4">
                         <div style={{ background: 'transparent linear-gradient(104deg,#6c7bd4,#56a8f7) 0 0 no-repeat padding-box', borderTopLeftRadius: '5px', borderTopRightRadius: '5px', textAlign:'right' }}> 
-                        <img src="https://www.turing.com/icons/quote.svg" alt="#ImgNotFound" width="40px" height='40px' className='m-1' />
+                        <img src={Images19.src} alt="#ImgNotFound" width="40px" height='40px' className='m-1' />
                         </div>
-                        <div class="card" style={{ boxShadow: 'rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px', borderTopLeftRadius: '0', borderTopRightRadius: '0' }}>
-                            <div class="card-body">
+                        <div className="card" style={{ boxShadow: 'rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px', borderTopLeftRadius: '0', borderTopRightRadius: '0' }}>
+                            <div className="card-body">
                                <h5>Dreamstack has been a valuable partner in helping us grow our team. We use Dreamstack because it helps us quickly find great talent globally in the ultra-competitive market climate.</h5>
                                <br /><br />
                                <h5 className='text-primary'>HR Manager of a US-based, multimillion-dollar software solution provider</h5>

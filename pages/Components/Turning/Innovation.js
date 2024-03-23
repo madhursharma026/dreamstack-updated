@@ -12,8 +12,8 @@ export default function Innovation() {
                 </h5>
                 <div className="row">
                     <div className="col-md-6 mt-4">
-                        <div class="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
-                            <div class="card-body">
+                        <div className="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
+                            <div className="card-body">
                                 <h1><b>Over 125 years</b></h1>
                                 <h5 className={`${styles.sectionBody} pt-2`}>
                                     of combined experience <br />
@@ -27,8 +27,8 @@ export default function Innovation() {
                         </div>
                     </div>
                     <div className="col-md-6 mt-4">
-                        <div class="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
-                            <div class="card-body">
+                        <div className="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
+                            <div className="card-body">
                                 <h1><b>Over 3 million hours</b></h1>
                                 <h5 className={`${styles.sectionBody} pt-2`}>
                                     of services work delivered <br />
@@ -48,8 +48,8 @@ export default function Innovation() {
                 </h5>
                 <div className="row">
                     <div className="col-lg-4 col-md-6 mt-3">
-                        <div class="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
-                            <div class="card-body">
+                        <div className="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
+                            <div className="card-body">
                                 <h1><b>Imagine</b></h1>
                                 <h5 className={`${styles.sectionBody} pt-2`}>
                                     Your goals and challenges, transformed into actionable planning and strategy.
@@ -58,8 +58,8 @@ export default function Innovation() {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 mt-3">
-                        <div class="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
-                            <div class="card-body">
+                        <div className="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
+                            <div className="card-body">
                                 <h1><b>Deliver</b></h1>
                                 <h5 className={`${styles.sectionBody} pt-2`}>
                                     White-glove development from the best AI-matched developers from our Talent Cloud.
@@ -68,8 +68,8 @@ export default function Innovation() {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 mt-3">
-                        <div class="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
-                            <div class="card-body">
+                        <div className="card h-100" style={{ background: 'transparent', border: '1px solid white' }}>
+                            <div className="card-body">
                                 <h1><b>Run</b></h1>
                                 <h5 className={`${styles.sectionBody} pt-2`}>
                                     We’ll handle the ongoing maintenance and support for as long as you need.
