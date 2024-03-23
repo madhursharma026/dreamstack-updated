@@ -25,7 +25,7 @@ export default function ThanksPage() {
                 <div className={`${styles.ContainerWidth} text-center mt-5 pt-5`}>
                     <h1 className="pt-5 mt-5">Thanks</h1>
                     <h5>We'll be in touch with you.</h5>
-                    <button type="button" class="btn btn-primary" onClick={(e) => moveOnTurningPages(e)}>Home</button>
+                    <button type="button" className="btn btn-primary" onClick={(e) => moveOnTurningPages(e)}>Home</button>
                 </div>
             </div>
         </div>

@@ -74,15 +74,15 @@ return (
                             </Form.Group>
                             <div className="row mt-5">
                                 <div className="col-6">
-                                    <Link class="btn btn-outline-secondary w-100 p-2" href="/Turing" role="button">Back</Link>
+                                    <Link className="btn btn-outline-secondary w-100 p-2" href="/Turing" role="button">Back</Link>
                                 </div>
                                 <div className="col-6">
-                                    <button type="submit" class="btn btn-primary w-100 p-2">Continue</button>
+                                    <button type="submit" className="btn btn-primary w-100 p-2">Continue</button>
                                 </div>
                             </div>
                         </form>
-                        <div class="progress mt-4" role="progressbar" aria-label="Basic example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style={{ height: '5px' }}>
-                            <div class="progress-bar" style={{ width: '10%' }}></div>
+                        <div className="progress mt-4" role="progressbar" aria-label="Basic example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style={{ height: '5px' }}>
+                            <div className="progress-bar" style={{ width: '10%' }}></div>
                         </div>
                     </div>
                 </div>

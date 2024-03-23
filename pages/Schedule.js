@@ -22,8 +22,8 @@ export default function Schedule() {
             </Head>
             <Header />
             <div className={`${styles.ContainerWidth2}`}>
-                <div class="card mx-3" style={{ boxShadow: '0 1px 8px 0 rgb(0 0 0/8%)' }}>
-                    <div class="card-body">
+                <div className="card mx-3" style={{ boxShadow: '0 1px 8px 0 rgb(0 0 0/8%)' }}>
+                    <div className="card-body">
                         <div className="row">
                             <div className={`col-md-4`}>
                                 <div className="p-sm-4">
@@ -44,15 +44,15 @@ export default function Schedule() {
                                 <div className="p-sm-4">
                                     <h5 className="mb-4"><b>Enter Details</b></h5>
                                     <form style={{ maxWidth: '400px' }} onSubmit={(e)=>goThanksPage(e)}>
-                                        <div class="mb-3">
-                                            <label for="name" class="form-label">Name</label>
-                                            <input type="text" required class="form-control" id="name" style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }} />
+                                        <div className="mb-3">
+                                            <label for="name" className="form-label">Name</label>
+                                            <input type="text" required className="form-control" id="name" style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }} />
                                         </div>
-                                        <div class="mb-3">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input type="email" required class="form-control" id="email" style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }} />
+                                        <div className="mb-3">
+                                            <label for="email" className="form-label">Email</label>
+                                            <input type="email" required className="form-control" id="email" style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }} />
                                         </div>
-                                        <button type="submit" class="btn btn-primary mt-3" style={{ borderRadius: '30px' }}>Schedule Event</button>
+                                        <button type="submit" className="btn btn-primary mt-3" style={{ borderRadius: '30px' }}>Schedule Event</button>
                                     </form>
                                 </div>
                             </div>

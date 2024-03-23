@@ -26,7 +26,7 @@ export default function ThanksPage2() {
                 <div className={`${styles.ContainerWidth} text-center mt-5 pt-5`}>
                     <h1 className="pt-sm-5 mt-sm-5">🎉 Thank you!</h1>
                     <h6>We’ll be in touch soon to imagine, deliver, and run your business solution.</h6>
-                    <button type="button" class="btn btn-primary" onClick={(e) => moveOnTurningPages(e)}>Home</button>
+                    <button type="button" className="btn btn-primary" onClick={(e) => moveOnTurningPages(e)}>Home</button>
                     <img src={Images13.src} alt="#ImgNotFound" className="mt-4 w-100" />
                     
                 </div>

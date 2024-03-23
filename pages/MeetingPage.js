@@ -119,8 +119,8 @@ export default function MeetingPage() {
             </Head>
             <Header />
             <div className={`${showTime ? `${styles.ContainerWidth2}` : `${styles.ContainerWidth}`}`}>
-                <div class="card mx-3" style={{ boxShadow: '0 1px 8px 0 rgb(0 0 0/8%)' }}>
-                    <div class="card-body">
+                <div className="card mx-3" style={{ boxShadow: '0 1px 8px 0 rgb(0 0 0/8%)' }}>
+                    <div className="card-body">
                         <div className="row">
                             <div className={`${showTime ? 'col-lg-4' : 'col-md-6'} ${styles.textAlignStyle}`}>
                                 <div className="p-sm-4">
@@ -144,192 +144,192 @@ export default function MeetingPage() {
                             {showTime ?
                                 <div className={`${showTime ? 'col-lg-4 col-sm-4 col-md-5' : ''} mt-lg-0 mt-4`}>
                                     {!showNextTab1 ?
-                                        <div class="card mt-2">
-                                            <div class="card-body text-primary text-center" onClick={() => show1()}>
+                                        <div className="card mt-2">
+                                            <div className="card-body text-primary text-center" onClick={() => show1()}>
                                                 <b>12:30 am</b>
                                             </div>
                                         </div>
                                         :
-                                        <div class="card mt-2 p-2">
+                                        <div className="card mt-2 p-2">
                                             <div className="row">
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
+                                                        <button type="button" className="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
+                                                        <button type="button" className="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     }
                                     {!showNextTab2 ?
-                                        <div class="card mt-2">
-                                            <div class="card-body text-primary text-center" onClick={() => show2()}>
+                                        <div className="card mt-2">
+                                            <div className="card-body text-primary text-center" onClick={() => show2()}>
                                                 <b>12:30 am</b>
                                             </div>
                                         </div>
                                         :
-                                        <div class="card mt-2 p-2">
+                                        <div className="card mt-2 p-2">
                                             <div className="row">
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
+                                                        <button type="button" className="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
+                                                        <button type="button" className="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     }
                                     {!showNextTab3 ?
-                                        <div class="card mt-2">
-                                            <div class="card-body text-primary text-center" onClick={() => show3()}>
+                                        <div className="card mt-2">
+                                            <div className="card-body text-primary text-center" onClick={() => show3()}>
                                                 <b>12:30 am</b>
                                             </div>
                                         </div>
                                         :
-                                        <div class="card mt-2 p-2">
+                                        <div className="card mt-2 p-2">
                                             <div className="row">
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
+                                                        <button type="button" className="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
+                                                        <button type="button" className="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     }
                                     {!showNextTab4 ?
-                                        <div class="card mt-2">
-                                            <div class="card-body text-primary text-center" onClick={() => show4()}>
+                                        <div className="card mt-2">
+                                            <div className="card-body text-primary text-center" onClick={() => show4()}>
                                                 <b>12:30 am</b>
                                             </div>
                                         </div>
                                         :
-                                        <div class="card mt-2 p-2">
+                                        <div className="card mt-2 p-2">
                                             <div className="row">
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
+                                                        <button type="button" className="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
+                                                        <button type="button" className="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     }
                                     {!showNextTab5 ?
-                                        <div class="card mt-2">
-                                            <div class="card-body text-primary text-center" onClick={() => show5()}>
+                                        <div className="card mt-2">
+                                            <div className="card-body text-primary text-center" onClick={() => show5()}>
                                                 <b>12:30 am</b>
                                             </div>
                                         </div>
                                         :
-                                        <div class="card mt-2 p-2">
+                                        <div className="card mt-2 p-2">
                                             <div className="row">
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
+                                                        <button type="button" className="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
+                                                        <button type="button" className="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     }
                                     {!showNextTab6 ?
-                                        <div class="card mt-2">
-                                            <div class="card-body text-primary text-center" onClick={() => show6()}>
+                                        <div className="card mt-2">
+                                            <div className="card-body text-primary text-center" onClick={() => show6()}>
                                                 <b>12:30 am</b>
                                             </div>
                                         </div>
                                         :
-                                        <div class="card mt-2 p-2">
+                                        <div className="card mt-2 p-2">
                                             <div className="row">
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
+                                                        <button type="button" className="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
+                                                        <button type="button" className="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     }
                                     {!showNextTab7 ?
-                                        <div class="card mt-2">
-                                            <div class="card-body text-primary text-center" onClick={() => show7()}>
+                                        <div className="card mt-2">
+                                            <div className="card-body text-primary text-center" onClick={() => show7()}>
                                                 <b>12:30 am</b>
                                             </div>
                                         </div>
                                         :
-                                        <div class="card mt-2 p-2">
+                                        <div className="card mt-2 p-2">
                                             <div className="row">
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
+                                                        <button type="button" className="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
+                                                        <button type="button" className="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     }
                                     {!showNextTab8 ?
-                                        <div class="card mt-2">
-                                            <div class="card-body text-primary text-center" onClick={() => show8()}>
+                                        <div className="card mt-2">
+                                            <div className="card-body text-primary text-center" onClick={() => show8()}>
                                                 <b>12:30 am</b>
                                             </div>
                                         </div>
                                         :
-                                        <div class="card mt-2 p-2">
+                                        <div className="card mt-2 p-2">
                                             <div className="row">
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
+                                                        <button type="button" className="btn btn-primary w-100 disabled"><b>12:00 am</b></button>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-sm-12 col-md-6 mt-md-0 mt-sm-1 mt-0">
-                                                    <div class="text-primary text-center">
+                                                    <div className="text-primary text-center">
                                                         {/* <b>12:00 am</b> */}
-                                                        <button type="button" class="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
+                                                        <button type="button" className="btn btn-secondary w-100" onClick={()=>router.push('Schedule')}><b>Next</b></button>
                                                     </div>
                                                 </div>
                                             </div>
