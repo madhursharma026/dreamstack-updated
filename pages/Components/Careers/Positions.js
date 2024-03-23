@@ -63,7 +63,7 @@ export default function Positions() {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
-                <div class="alert alert-secondary mt-3 text-center" role="alert" style={{ maxWidth: '1200px', margin: 'auto' }}>
+                <div className="alert alert-secondary mt-3 text-center" role="alert" style={{ maxWidth: '1200px', margin: 'auto' }}>
                     Dreamstack does not contact candidates through Facebook or other social media platforms. If you receive a job offer from someone via these channels, please report and disregard it.
                 </div>
             </div>

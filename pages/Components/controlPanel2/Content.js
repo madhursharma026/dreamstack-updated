@@ -27,9 +27,9 @@ export default function Content() {
             <Head>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
             </Head>
-            <nav class="navbar fixed-top" style={{ display: `${visible ? 'none' : 'block'}`, background: '#14284B' }}>
-                <div class="container-fluid">
-                    <span class="navbar-brand mt-1 text-white"><h3>User: Dinish Chugtai</h3></span>
+            <nav className="navbar fixed-top" style={{ display: `${visible ? 'none' : 'block'}`, background: '#14284B' }}>
+                <div className="container-fluid">
+                    <span className="navbar-brand mt-1 text-white"><h3>User: Dinish Chugtai</h3></span>
                 </div>
             </nav>
             <div className="row">
@@ -54,44 +54,44 @@ export default function Content() {
                 </div>
                 </div>
                 <div className="col-xl-7 col-md-6">
-                    <ul class="list-group pt-4 px-5">
+                    <ul className="list-group pt-4 px-5">
                         <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
+                            <ol className="breadcrumb">
                                 <h2>Manage User</h2>
-                                <li class="breadcrumb-item active" aria-current="page" style={{ marginTop: '13px', marginLeft: '20px' }}>Home</li>
-                                <li class="breadcrumb-item active" aria-current="page" style={{ marginTop: '13px' }}>Users</li>
-                                <li class="breadcrumb-item active" aria-current="page" style={{ marginTop: '13px' }}>Manage</li>
+                                <li className="breadcrumb-item active" aria-current="page" style={{ marginTop: '13px', marginLeft: '20px' }}>Home</li>
+                                <li className="breadcrumb-item active" aria-current="page" style={{ marginTop: '13px' }}>Users</li>
+                                <li className="breadcrumb-item active" aria-current="page" style={{ marginTop: '13px' }}>Manage</li>
                             </ol>
                         </nav>
 
-                        <div class="card" style={{ borderTop: '5px solid #3798DB' }}>
-                            <div class="card-body">
-                                <div class="row">
+                        <div className="card" style={{ borderTop: '5px solid #3798DB' }}>
+                            <div className="card-body">
+                                <div className="row">
                                     <div className="col-3 text-center mt-4">
                                         <img src="https://img.freepik.com/free-icon/user_318-563642.jpg?w=360" alt="#ImgNotFound" style={{ borderRadius: '100%', width: '60%' }} />
                                         <h4 className='mt-3'>Dinish Chugtai</h4>
                                     </div>
                                     <div className="col-9" style={{ borderLeft: '1px solid #C8C8C8' }}>
-                                        <i class="fa fa-unlock" style={{ fontSize: '24px', color: '#09B796', float: 'right' }}></i>
+                                        <i className="fa fa-unlock" style={{ fontSize: '24px', color: '#09B796', float: 'right' }}></i>
                                         <br />
                                         <div style={{ borderBottom: '1px solid #C8C8C8' }}>
                                             <div className="m-4">
-                                                <h6><b>Email</b> &emsp; <i class="fa fa-check" style={{ color: '#138F75' }}></i>dinesh@fusionauth.io</h6>
+                                                <h6><b>Email</b> &emsp; <i className="fa fa-check" style={{ color: '#138F75' }}></i>dinesh@fusionauth.io</h6>
                                                 <h6><b>User Id</b> &emsp; 00000000000000000000000000000000000000000000000</h6>
                                             </div>
                                         </div>
                                         <div className="row m-3">
                                             <div className="col mt-3">
                                                 <h6><b>Birthdate</b></h6>
-                                                <h6><i class="fa fa-minus"></i></h6>
+                                                <h6><i className="fa fa-minus"></i></h6>
                                             </div>
                                             <div className="col mt-3">
                                                 <h6><b>Username</b></h6>
-                                                <h6><i class="fa fa-minus"></i></h6>
+                                                <h6><i className="fa fa-minus"></i></h6>
                                             </div>
                                             <div className="col mt-3">
                                                 <h6><b>Preferred languages</b></h6>
-                                                <h6><i class="fa fa-minus"></i></h6>
+                                                <h6><i className="fa fa-minus"></i></h6>
                                             </div>
                                         </div>
                                         <div className="row m-3">
@@ -116,7 +116,7 @@ export default function Content() {
                                         <div className="col-2 text-center" style={{ fontWeight: '550', color: 'gray' }}>Entity Grants</div>
                                         <div className="col-1 text-center" style={{ fontWeight: '550', color: 'gray' }}>Groups</div>
 
-                                        <table class="table mx-4 mt-3" style={{ width: '88%' }}>
+                                        <table className="table mx-4 mt-3" style={{ width: '88%' }}>
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Sr. no</th>
@@ -130,217 +130,217 @@ export default function Content() {
                                                     <th scope="row">1</th>
                                                     <td><b>Movie</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">3</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">4</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">5</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">6</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">7</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">8</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">9</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">10</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">11</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">12</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">13</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">14</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">15</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">16</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">17</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">18</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">19</th>
                                                     <td><b>Movie</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">20</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">21</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">22</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">23</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">24</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">25</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">26</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">27</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">28</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">29</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">30</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">31</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">32</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">33</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">34</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">35</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">36</th>
                                                     <td><b>Web Series</b></td>
                                                     <td><b>Two birds fly</b></td>
-                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i class="fa fa-trash-o"></i></span></td>
+                                                    <td><span className='bg-danger text-white p-2' style={{ marginLeft: '10px', borderRadius: '5px' }}><i className="fa fa-trash-o"></i></span></td>
                                                 </tr>
                                             </tbody>
                                         </table>

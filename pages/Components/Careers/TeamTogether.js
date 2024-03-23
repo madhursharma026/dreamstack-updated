@@ -50,29 +50,29 @@ export default function TeamTogether() {
 
                 <div className="row mx-xl-5 px-md-4 px-3 mb-5">
                     <div className={`col-lg-4`} style={{ cursor: "pointer" }}>
-                        <div class={`card w-100 h-100 p-4 ${(activeCard === "1") ? `${styles.activeCard}` : `${styles.cardStyle}`}`} onClick={() => setActiveCardNo("1")}>
-                            <div class="card-body">
-                                <h6 class={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>IN_PERSON RETREAT</h6>
-                                <h5 class="card-subtitle mb-3"><b>Cancun 2019</b></h5>
-                                <p class="card-text text-muted">Dreamstack met in person for idea-sharing, team-building, and beach volleyball. Check it out</p>
+                        <div className={`card w-100 h-100 p-4 ${(activeCard === "1") ? `${styles.activeCard}` : `${styles.cardStyle}`}`} onClick={() => setActiveCardNo("1")}>
+                            <div className="card-body">
+                                <h6 className={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>IN_PERSON RETREAT</h6>
+                                <h5 className="card-subtitle mb-3"><b>Cancun 2019</b></h5>
+                                <p className="card-text text-muted">Dreamstack met in person for idea-sharing, team-building, and beach volleyball. Check it out</p>
                             </div>
                         </div>
                     </div>
                     <div className={`col-lg-4`} style={{ cursor: "pointer" }}>
-                        <div class={`card w-100 h-100 p-4 ${(activeCard === "2") ? `${styles.activeCard}` : `${styles.cardStyle}`}`} onClick={() => setActiveCardNo("2")}>
-                            <div class="card-body">
-                                <h6 class={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>VIRTUAL RETREAT</h6>
-                                <h5 class="card-subtitle mb-3"><b>Retreat from Home 2020</b></h5>
-                                <p class="card-text text-muted">See how we celebrate each other and hard work during the 2020 remote retreat</p>
+                        <div className={`card w-100 h-100 p-4 ${(activeCard === "2") ? `${styles.activeCard}` : `${styles.cardStyle}`}`} onClick={() => setActiveCardNo("2")}>
+                            <div className="card-body">
+                                <h6 className={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>VIRTUAL RETREAT</h6>
+                                <h5 className="card-subtitle mb-3"><b>Retreat from Home 2020</b></h5>
+                                <p className="card-text text-muted">See how we celebrate each other and hard work during the 2020 remote retreat</p>
                             </div>
                         </div>
                     </div>
                     <div className={`col-lg-4`} style={{ cursor: "pointer" }}>
-                        <div class={`card w-100 h-100 p-4 ${(activeCard === "3") ? `${styles.activeCard}` : `${styles.cardStyle}`}`} onClick={() => setActiveCardNo("3")}>
-                            <div class="card-body">
-                                <h6 class={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>IN_PERSON RETREAT</h6>
-                                <h5 class="card-subtitle mb-3"><b>Punta Cana 2022</b></h5>
-                                <p class="card-text text-muted">In our first in-person retreat since 2019, Dreamstack gathered for a week of team building, surfing, and beach volleyball.</p>
+                        <div className={`card w-100 h-100 p-4 ${(activeCard === "3") ? `${styles.activeCard}` : `${styles.cardStyle}`}`} onClick={() => setActiveCardNo("3")}>
+                            <div className="card-body">
+                                <h6 className={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>IN_PERSON RETREAT</h6>
+                                <h5 className="card-subtitle mb-3"><b>Punta Cana 2022</b></h5>
+                                <p className="card-text text-muted">In our first in-person retreat since 2019, Dreamstack gathered for a week of team building, surfing, and beach volleyball.</p>
                             </div>
                         </div>
                     </div>

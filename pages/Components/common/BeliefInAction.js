@@ -11,7 +11,7 @@ export default function BeliefInAction() {
                 <h6 className={`${styles.sectionTitle}`}>Belief in action</h6>
                 <div className="row">
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image9.src} alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
                                 <h4>Novolex integrates its ERP systems</h4>
@@ -19,7 +19,7 @@ export default function BeliefInAction() {
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image10.src} alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
                                 <h4>United Airlines all set to fly higher</h4>
@@ -27,7 +27,7 @@ export default function BeliefInAction() {
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image11.src} alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
                                 <h4>Proximus joins hands with Dreamstack for enterprise agile transformation </h4>
@@ -35,7 +35,7 @@ export default function BeliefInAction() {
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image12.src} alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
                                 <h4>Extreme Networks switches on subscription models</h4>

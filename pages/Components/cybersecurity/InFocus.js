@@ -11,28 +11,28 @@ export default function InFocus() {
                 <h6 className={`${styles.sectionTitle}`}>In Focus</h6>
                 <div className="row">
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image13.src} alt="#ImgNotFound" className='w-100' />
                             <p className={`${styles.sectionBody} text-black`}>A global credit bureau secures credit scores</p>
                             <h6 className="text-muted">Case Studies | 18 May 2022</h6>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image14.src} alt="#ImgNotFound" className='w-100' />
                             <p className={`${styles.sectionBody} text-black`}>A global credit bureau secures credit scores</p>
                             <h6 className="text-muted">Case Studies | 18 May 2022</h6>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image15.src} alt="#ImgNotFound" className='w-100' />
                             <p className={`${styles.sectionBody} text-black`}>A global credit bureau secures credit scores</p>
                             <h6 className="text-muted">Case Studies | 18 May 2022</h6>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image16.src} alt="#ImgNotFound" className='w-100' />
                             <p className={`${styles.sectionBody} text-black`}>A global credit bureau secures credit scores</p>
                             <h6 className="text-muted">Case Studies | 18 May 2022</h6>

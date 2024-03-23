@@ -75,19 +75,19 @@ export default function ContactModule() {
                                 <h1 className={`${styles.subHeading2}`}><b>Couldn't get ahold of us?</b></h1>
                                 <p className={`${styles.sectionBody} text-muted`}>Request a callback and we'll get back to you.</p>
                                 <form onSubmit={(e) => sendEmail(e)}>
-                                    <div class="mb-3">
-                                        <label for="fullName" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Full Name</label>
-                                        <input type="text" class="form-control" id="fullName" name='fullName' placeholder="What's your name?" required onChange={(e) => setFullName(e.target.value)} value={fullName} />
+                                    <div className="mb-3">
+                                        <label for="fullName" className="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Full Name</label>
+                                        <input type="text" className="form-control" id="fullName" name='fullName' placeholder="What's your name?" required onChange={(e) => setFullName(e.target.value)} value={fullName} />
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="emailAddress" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Email</label>
-                                        <input type="email" class="form-control" id="emailAddress" name='emailAddress' placeholder="Enter your email" required onChange={(e) => setEmailAddress(e.target.value)} value={emailAddress} />
+                                    <div className="mb-3">
+                                        <label for="emailAddress" className="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Email</label>
+                                        <input type="email" className="form-control" id="emailAddress" name='emailAddress' placeholder="Enter your email" required onChange={(e) => setEmailAddress(e.target.value)} value={emailAddress} />
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="phoneNumber" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Phone Number</label>
-                                        <input type="text" class="form-control" id="phoneNumber" name='phoneNumber' placeholder="+91 9876543210" required onChange={(e) => setPhoneNumber(e.target.value)} value={phoneNumber} />
+                                    <div className="mb-3">
+                                        <label for="phoneNumber" className="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Phone Number</label>
+                                        <input type="text" className="form-control" id="phoneNumber" name='phoneNumber' placeholder="+91 9876543210" required onChange={(e) => setPhoneNumber(e.target.value)} value={phoneNumber} />
                                     </div>
-                                    <button type="submit" class={`btn btn-primary ${styles.callMeBack} my-3`}>Call me back</button>
+                                    <button type="submit" className={`btn btn-primary ${styles.callMeBack} my-3`}>Call me back</button>
                                 </form>
                             </div>
                         </div>

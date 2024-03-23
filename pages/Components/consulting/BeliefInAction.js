@@ -1,4 +1,8 @@
 import styles from '../../../styles/DataAndAnalytics/BeliefInAction.module.css';
+import Image7 from "../../media/Consulting-Images/consulting-image-7.jpeg";
+import Image8 from "../../media/Consulting-Images/consulting-image-8.jpeg";
+import Image9 from "../../media/Consulting-Images/consulting-image-9.jpeg";
+import Image10 from "../../media/Consulting-Images/consulting-image-10.jpeg";
 
 export default function BeliefInAction() {
     return (
@@ -7,32 +11,32 @@ export default function BeliefInAction() {
                 <h6 className={`${styles.sectionTitle}`}>Belief in action</h6>
                 <div className="row">
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/novolex-sap-s4hana-digital-transformation-business-process?wid=1900&hei=1002&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
+                        <div className={`${styles.columnData}`}>
+                            <img src={Image7.src} alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
                                 <h4>Novolex integrates its ERP systems</h4>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/man-checking-flight-status?wid=1900&hei=1330&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
+                        <div className={`${styles.columnData}`}>
+                            <img src={Image8.src} alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
                                 <h4>United Airlines all set to fly higher</h4>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/proximus-accelerates-enterprise-agile-transformation-journey-Web?wid=1900&hei=749&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
+                        <div className={`${styles.columnData}`}>
+                            <img src={Image9.src} alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
                                 <h4>Proximus joins hands with Dreamstack for enterprise agile transformation </h4>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
-                            <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/digitally-transform-subscription-Web-3840x1512?wid=1900&hei=749&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
+                        <div className={`${styles.columnData}`}>
+                            <img src={Image10.src} alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
                                 <h4>Extreme Networks switches on subscription models</h4>
                             </div>

@@ -11,33 +11,33 @@ export default function News() {
                 <h6 className={`${styles.sectionTitle}`}>In The Trend</h6>
                 <div className="row">
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image13.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h2>Gartner Leader</h2>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image14.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h2>Everest Ranking</h2>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image15.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h2>IDC Marketscape</h2>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image16.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h2>HFS Research</h2>
                             </div>
                         </div>

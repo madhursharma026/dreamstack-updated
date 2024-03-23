@@ -12,34 +12,34 @@ export default function Section4() {
                 <br />
                 <div className="row">
                     <div className="col-md-6 col-lg-3 mt-3">
-                        <div class="card w-100 h-100" style={{ border: '0' }}>
-                            <div class="card-body">
+                        <div className="card w-100 h-100" style={{ border: '0' }}>
+                            <div className="card-body">
                                 <img src={Images2.src} alt="#ImgNotFound" style={{ width: '100px' }} />
-                                <h3 class="card-title mt-3"><b>Client Retention and Increased Profitability</b></h3>
+                                <h3 className="card-title mt-3"><b>Client Retention and Increased Profitability</b></h3>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-3 mt-3">
-                        <div class="card w-100 h-100" style={{ border: '0' }}>
-                            <div class="card-body">
+                        <div className="card w-100 h-100" style={{ border: '0' }}>
+                            <div className="card-body">
                                 <img src={Images3.src} alt="#ImgNotFound" style={{ width: '100px' }} />
-                                <h3 class="card-title mt-3"><b>Secure Blockchain Software Systems</b></h3>
+                                <h3 className="card-title mt-3"><b>Secure Blockchain Software Systems</b></h3>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-3 mt-3">
-                        <div class="card w-100 h-100" style={{ border: '0' }}>
-                            <div class="card-body">
+                        <div className="card w-100 h-100" style={{ border: '0' }}>
+                            <div className="card-body">
                                 <img src={Images4.src} alt="#ImgNotFound" style={{ width: '100px' }} />
-                                <h3 class="card-title mt-3"><b>Revamped Apps and Digital Tools</b></h3>
+                                <h3 className="card-title mt-3"><b>Revamped Apps and Digital Tools</b></h3>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-3 mt-3">
-                        <div class="card w-100 h-100" style={{ border: '0' }}>
-                            <div class="card-body">
+                        <div className="card w-100 h-100" style={{ border: '0' }}>
+                            <div className="card-body">
                                 <img src={Images5.src} alt="#ImgNotFound" style={{ width: '100px' }} />
-                                <h3 class="card-title mt-3"><b>Intuitive Service and Maintenance</b></h3>
+                                <h3 className="card-title mt-3"><b>Intuitive Service and Maintenance</b></h3>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ export default function Section4() {
                         </h2>
                     </div>
                     <div className="col-lg-2 mt-3 text-center">
-                        <button type="button" class="btn btn-primary px-3 py-2"><b>Get Started</b></button>
+                        <button type="button" className="btn btn-primary px-3 py-2"><b>Get Started</b></button>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ export default function ReadAll() {
                 <h1 className={`${styles.sectionTitle} text-white text-center`}><b>See what else is happening at Dreamstack</b></h1>
                 <p className="text-white text-center">Get the latest articles on productivity, remote work, and more on our blog.</p>
                 <div className='text-center'>
-                    <button type="button" class={`btn ${styles.ReadAllAboutit}`}>Read All About it</button>
+                    <button type="button" className={`btn ${styles.ReadAllAboutit}`}>Read All About it</button>
                 </div>
             </div>
         </div>

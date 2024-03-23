@@ -11,33 +11,33 @@ export default function Insights2() {
                 <h6 className={`${styles.sectionTitle} text-white`}>Insights</h6>
                 <div className="row">
                     <div className="col-lg-3 col-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Images3.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
-                            <div class={`${styles.topLeft}`}>
+                            <div className={`${styles.topLeft}`}>
                                 <h3 className='pt-2'>Security is key to growth </h3>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Images4.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
-                            <div class={`${styles.topLeft}`}>
+                            <div className={`${styles.topLeft}`}>
                                 <h3 className='pt-2'>Security is key to growth </h3>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Images5.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
-                            <div class={`${styles.topLeft}`}>
+                            <div className={`${styles.topLeft}`}>
                                 <h3 className='pt-2'>Security is key to growth </h3>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Images6.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '300px', borderRadius: "10px" }} />
-                            <div class={`${styles.topLeft}`}>
+                            <div className={`${styles.topLeft}`}>
                                 <h3 className='pt-2'>Security is key to growth </h3>
                             </div>
                         </div>

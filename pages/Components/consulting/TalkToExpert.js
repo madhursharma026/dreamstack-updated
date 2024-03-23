@@ -12,7 +12,7 @@ export default function TalkToExpert() {
                     <div className={`col-md-6 ${styles.rightSide} pt-3`}>
                         <h1 className={`${styles.sectionTitle} text-white`}>Transformation starts here</h1>
                         <h5 className="text-muted my-3">Looking to turn purpose into action?</h5>
-                        <Link href="/contact" class={`btn ${styles.btnStyle} text-white`}>Talk To our Expert</Link>
+                        <Link href="/contact" className={`btn ${styles.btnStyle} text-white`}>Talk To our Expert</Link>
                     </div>
                 </div>
             </div>

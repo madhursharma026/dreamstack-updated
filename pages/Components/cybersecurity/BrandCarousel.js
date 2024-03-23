@@ -22,10 +22,10 @@ export default function BrandCarousel() {
             </Carousel>
             <div className={`row mt-4 ${styles.rowStyle}`}>
                 <div className="col-lg-6 mt-3">
-                    <button type="button" class={`btn btn-info p-3 text-white ${styles.leftSideBtn}`}><b>I'VE BEEN HACKED</b></button>
+                    <button type="button" className={`btn btn-info p-3 text-white ${styles.leftSideBtn}`}><b>I'VE BEEN HACKED</b></button>
                 </div>
                 <div className="col-lg-6 mt-3">
-                    <button type="button" class={`btn btn-outline-danger p-3 ${styles.rightSideBtn}`}><b>COMPARE PLANS</b></button>
+                    <button type="button" className={`btn btn-outline-danger p-3 ${styles.rightSideBtn}`}><b>COMPARE PLANS</b></button>
                 </div>
             </div>
         </div>

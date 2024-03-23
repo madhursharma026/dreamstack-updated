@@ -11,36 +11,36 @@ export default function Insights() {
                 <h6 className={`${styles.sectionTitle}`}>Insights</h6>
                 <div className="row">
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image13.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h1>O1</h1>
                                 <p>Cognitive intelligence for threat detection, deep analytics, and automation for fast remediation</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image14.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h1>O2</h1>
                                 <p>Cognitive intelligence for threat detection, deep analytics, and automation for fast remediation</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image15.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h1>O3</h1>
                                 <p>Cognitive intelligence for threat detection, deep analytics, and automation for fast remediation</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image16.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h1>O4</h1>
                                 <p>Cognitive intelligence for threat detection, deep analytics, and automation for fast remediation</p>
                             </div>

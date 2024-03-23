@@ -8,7 +8,7 @@ export default function GetInTouch() {
                     <h1><b>Get in Touch</b></h1>
                     <br />
                     <h2>Our Free Custom Software Development Consulting Aims to Help You Analyze the Viability of Your Concept</h2>
-                    <button type="button" class="btn btn-info">Get Your Estimate</button>
+                    <button type="button" className="btn btn-info">Get Your Estimate</button>
                 </div>
             </div>
         </div>

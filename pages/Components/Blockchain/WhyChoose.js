@@ -16,16 +16,16 @@ export default function WhyChoose() {
 
                         <div className="row px-xxl-5">
                             <div className="col-md-6 col-xl-4">
-                                <div class="card w-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><b>Technology Experts</b></h3>
-                                        <p class="card-text" style={{ fontSize: '20px' }}>Get access to experienced blockchain professionals to build a secure blockchain app for your domain and implement custom solutions for your business success</p>
+                                <div className="card w-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
+                                    <div className="card-body">
+                                        <h3 className="card-title"><b>Technology Experts</b></h3>
+                                        <p className="card-text" style={{ fontSize: '20px' }}>Get access to experienced blockchain professionals to build a secure blockchain app for your domain and implement custom solutions for your business success</p>
                                     </div>
                                 </div>
-                                <div class="card w-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><b>Cross-Industry Experience</b></h3>
-                                        <p class="card-text" style={{ fontSize: '20px' }}>We have vast competencies in building blockchain-driven solutions across industry domains including insurance, supply chain, retail, and more</p>
+                                <div className="card w-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
+                                    <div className="card-body">
+                                        <h3 className="card-title"><b>Cross-Industry Experience</b></h3>
+                                        <p className="card-text" style={{ fontSize: '20px' }}>We have vast competencies in building blockchain-driven solutions across industry domains including insurance, supply chain, retail, and more</p>
                                     </div>
                                 </div>
                             </div>
@@ -33,16 +33,16 @@ export default function WhyChoose() {
                             <img src={Images15.src} alt="#ImgNotFound" width='100%' />
                             </div>
                             <div className="col-md-6 col-xl-4">
-                                <div class="card w-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><b>Competitive Advantage</b></h3>
-                                        <p class="card-text" style={{ fontSize: '20px' }}>Gain a strategic competitive advantage with our tailor-made solutions that cover DevOps practices, AML/KYC Compliance solutions, discovery phase, and more</p>
+                                <div className="card w-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
+                                    <div className="card-body">
+                                        <h3 className="card-title"><b>Competitive Advantage</b></h3>
+                                        <p className="card-text" style={{ fontSize: '20px' }}>Gain a strategic competitive advantage with our tailor-made solutions that cover DevOps practices, AML/KYC Compliance solutions, discovery phase, and more</p>
                                     </div>
                                 </div>
-                                <div class="card w-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><b>Extensive Development Skills</b></h3>
-                                        <p class="card-text" style={{ fontSize: '20px' }}>Our developers bring knowledge and experience in specialized blockchain-relevant methodologies together to provide best-in-class blockchain solutions </p>
+                                <div className="card w-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
+                                    <div className="card-body">
+                                        <h3 className="card-title"><b>Extensive Development Skills</b></h3>
+                                        <p className="card-text" style={{ fontSize: '20px' }}>Our developers bring knowledge and experience in specialized blockchain-relevant methodologies together to provide best-in-class blockchain solutions </p>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ export default function WhyChoose() {
                             </h2>
                         </div>
                         <div className="col-lg-2 mt-3 text-center">
-                            <button type="button" class="btn btn-primary px-3 py-2"><b>Talk to us</b></button>
+                            <button type="button" className="btn btn-primary px-3 py-2"><b>Talk to us</b></button>
                         </div>
                     </div>
                 </div>

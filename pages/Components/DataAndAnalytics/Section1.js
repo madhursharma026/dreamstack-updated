@@ -18,7 +18,7 @@ export default function IntroSection() {
                             Firefox products are designed to protect your privacy
                         </h1>
                         <h5 className={`text-white ${styles.sectionBody} pt-2`}>You should be able to decide who sees your personal info. Not just among your friends, but with every advertiser and company on the internet — including us.</h5>
-                        <button type="button" class="btn btn-primary mb-2 px-3 py-2"><b>Download Dreamstack</b></button><br />
+                        <button type="button" className="btn btn-primary mb-2 px-3 py-2"><b>Download Dreamstack</b></button><br />
                         <Link href="" className='text-white' style={{textDecoration:"none", fontSize:"13px"}}>Firefox Privacy Notice</Link>
 
                     </div>

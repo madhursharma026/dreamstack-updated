@@ -12,7 +12,7 @@ export default function DitchTheOffice() {
                     <div className="col-lg-6 p-lg-5 pt-5">
                         <h1 className={`${styles.sectionTitle}`}>Ditch the office</h1>
                         <p className={`${styles.sectionBody}`}>Dreamstack is a fully remote company that believes a global talent pool is a competitive advantage. We have no corporate campus, no cubicles, no geographic limit to who we can hire, and our products are better for it. Our team is always growing.</p>
-                        <button type="button" class={`btn ${styles.openPositionBtn}`}>View open positions</button></div>
+                        <button type="button" className={`btn ${styles.openPositionBtn}`}>View open positions</button></div>
                 </div>
             </div>
         </div>

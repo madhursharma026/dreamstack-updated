@@ -11,27 +11,27 @@ export default function Insights() {
                 <h6 className={`${styles.sectionTitle}`}>Insights</h6>
                 <div className="row">
                     <div className="col-md py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image15.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h1>Data-driven organizations</h1>
                                 <Link href="/" style={{color:'#E41165', fontSize:"24px"}}>Read More</Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-md py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image16.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h1>Sustainability with analytics</h1>
                                 <Link href="/" style={{color:'#E41165', fontSize:"24px"}}>Read More</Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-md py-3">
-                        <div class={`${styles.columnData}`}>
+                        <div className={`${styles.columnData}`}>
                             <img src={Image17.src} alt="#ImgNotFound" className='w-100' style={{ height: '500px' }} />
-                            <div class={`${styles.bottomLeft}`}>
+                            <div className={`${styles.bottomLeft}`}>
                                 <h1>Collaborative intelligence</h1>
                                 <Link href="/" style={{color:'#E41165', fontSize:"24px"}}>Read More</Link>
                             </div>
