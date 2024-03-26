@@ -34,7 +34,7 @@ export default function Section7() {
                                     </div>
                                 </div>
                                 <div className="col-md-12">
-                                    <div className="card w-100 mt-3" style={{ background: '#262626' }}>
+                                    <div className={`card w-100 mt-3 ${styles.combinedCardBeforeSMScrn}`} style={{ background: '#262626' }}>
                                         <div className="card-body p-0">
                                             <div className="row">
                                                 <div className="col-6">
@@ -65,7 +65,7 @@ export default function Section7() {
                             <div className={`card w-100 mt-3 ${styles.combinedCardAfterXLScrn}`} style={{ background: '#262626' }}>
                                 <div className="card-body p-0">
                                     <div className="row">
-                                        <div className="col-6" style={{ margin: 'auto' }}>
+                                        <div className="col-6 p-4" style={{ margin: 'auto' }}>
                                             <h1 className="card-title">
                                                 125+ combined years of experience
                                             </h1>
@@ -75,6 +75,24 @@ export default function Section7() {
                                             <img src="https://images.prismic.io/turing/Zf0Z9M68zyqdRp1I_Experience_Resources-420x420.webp?auto=format%2Ccompress&fit=max&w=640" alt="ImgNotFound" className='w-100' />
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div className={`card w-100 mt-3 ${styles.combinedCardAfterSMScrn}`} style={{ background: '#262626' }}>
+                                <img src="https://images.prismic.io/turing/Zf0aFc68zyqdRp1J_TechProfessionals-Resources-420x420.webp?auto=format%2Ccompress&fit=max&w=640" alt="ImgNotFound" className='w-100' />
+                                <div class="card-body">
+                                    <h1 className="card-title">
+                                        3 million+ technical professionals
+                                    </h1>
+                                    <h5>from 150 countries available through our network</h5>
+                                </div>
+                            </div>
+                            <div className={`card w-100 mt-3 ${styles.combinedCardAfterSMScrn}`} style={{ background: '#262626' }}>
+                                <img src="https://images.prismic.io/turing/Zf0Z9M68zyqdRp1I_Experience_Resources-420x420.webp?auto=format%2Ccompress&fit=max&w=640" alt="ImgNotFound" className='w-100' />
+                                <div class="card-body">
+                                    <h1 className="card-title">
+                                        125+ combined years of experience
+                                    </h1>
+                                    <h5>for innovative business outcomes</h5>
                                 </div>
                             </div>
                         </div>
