@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import styles from '../../../styles/cloud/cloud.module.css';
+import Image12 from "../../media/Cloud-New-Images/Image12.png";
 
 export default function Section6() {
     return (
         <div className={`p-0`}>
-            <div style={{ backgroundImage: "url('https://images.prismic.io/turing/Zf0ZG868zyqdRp1D_DevShot_1920x860.webp?auto=format,compress')", paddingTop: '100px', paddingBottom: '100px', backgroundSize: 'cover', backgroundPosition: '50%' }}>
+            <div style={{ backgroundImage: `url(${Image12.src})`, paddingTop: '100px', paddingBottom: '100px', backgroundSize: 'cover', backgroundPosition: '50%' }}>
                 <div className={`${styles.ContainerWidth} text-white`}>
                     <div className="row py-lg-5 my-lg-5">
                         <div className="col-md-6">

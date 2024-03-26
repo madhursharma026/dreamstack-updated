@@ -1,4 +1,7 @@
 import styles from '../../../styles/cloud/cloud.module.css';
+import Image9 from "../../media/Cloud-New-Images/Image9.svg";
+import Image10 from "../../media/Cloud-New-Images/Image10.svg";
+import Image11 from "../../media/Cloud-New-Images/Image11.svg";
 
 export default function Section5() {
     return (
@@ -22,7 +25,7 @@ export default function Section5() {
                             <div className={styles.flipCard}>
                                 <div className={styles.flipCardInner}>
                                     <div className={`${styles.flipCardFront} p-5`}>
-                                        <img src="https://png.pngtree.com/png-clipart/20230508/original/pngtree-3d-dialog-box-vector-design-png-image_9148977.png" alt="ImgNotFound" width='70px' height='70px' />
+                                        <img src={Image9.src} alt="#ImgNotFound" />
                                         <h1 className='mt-3'>Customized enterprise LLMs</h1>
                                     </div>
                                     <div className={styles.flipCardBack}>
@@ -35,7 +38,7 @@ export default function Section5() {
                             <div className={styles.flipCard}>
                                 <div className={styles.flipCardInner}>
                                     <div className={`${styles.flipCardFront} p-5`}>
-                                        <img src="https://cdn-icons-png.freepik.com/512/139/139783.png" alt="ImgNotFound" width='70px' height='70px' />
+                                        <img src={Image11.src} alt="#ImgNotFound" />
                                         <h1 className='mt-3'>Proprietary data protected</h1>
                                     </div>
                                     <div className={styles.flipCardBack}>
@@ -48,7 +51,7 @@ export default function Section5() {
                             <div className={styles.flipCard}>
                                 <div className={styles.flipCardInner}>
                                     <div className={`${styles.flipCardFront} p-5`}>
-                                        <img src="https://seeklogo.com/images/N/Nautical_Star-logo-37A929F49F-seeklogo.com.png" alt="ImgNotFound" width='70px' height='70px' />
+                                        <img src={Image10.src} alt="#ImgNotFound" />
                                         <h1 className='mt-3'>Perfected GenAI strategies</h1>
                                     </div>
                                     <div className={styles.flipCardBack}>
@@ -62,7 +65,7 @@ export default function Section5() {
                     <div className={styles.flipCardAfterLGScrn}>
                         <div class="card p-3 mt-3" style={{ border: 'none' }}>
                             <div class="card-body">
-                                <img src="https://png.pngtree.com/png-clipart/20230508/original/pngtree-3d-dialog-box-vector-design-png-image_9148977.png" alt="ImgNotFound" width='70px' height='70px' />
+                                <img src={Image9.src} alt="#ImgNotFound" />
                                 <h1 className='mt-3'>Customized enterprise LLMs</h1>
                                 <h4>We build bespoke large language models tailored to your business needs with advanced techniques, like retrieval augmented generation and supervised fine-tuning, for seamless integration with your workflows.</h4>
                             </div>
@@ -70,7 +73,7 @@ export default function Section5() {
 
                         <div class="card p-3 mt-3" style={{ border: 'none' }}>
                             <div class="card-body">
-                                <img src="https://cdn-icons-png.freepik.com/512/139/139783.png" alt="ImgNotFound" width='70px' height='70px' />
+                                <img src={Image11.src} alt="#ImgNotFound" />
                                 <h1 className='mt-3'>Proprietary data protected</h1>
                                 <h4>We safeguard and enrich your proprietary data with our secure, high-quality human data to unlock tailored AI solutions that scale with your business.</h4>
                             </div>
@@ -78,7 +81,7 @@ export default function Section5() {
 
                         <div class="card p-3 mt-3" style={{ border: 'none' }}>
                             <div class="card-body">
-                                <img src="https://seeklogo.com/images/N/Nautical_Star-logo-37A929F49F-seeklogo.com.png" alt="ImgNotFound" width='70px' height='70px' />
+                                <img src={Image10.src} alt="#ImgNotFound" />
                                 <h1 className='mt-3'>Perfected GenAI strategies</h1>
                                 <h4>We help you build meaningful strategies that maximize GenAI—accelerating product development, productivity, and more—customized to your needs.</h4>
                             </div>

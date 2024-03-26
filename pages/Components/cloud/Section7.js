@@ -1,4 +1,12 @@
 import styles from '../../../styles/cloud/cloud.module.css';
+import Image13 from "../../media/Cloud-New-Images/Image13.svg";
+import Image14 from "../../media/Cloud-New-Images/Image14.svg";
+import Image15 from "../../media/Cloud-New-Images/Image15.svg";
+import Image16 from "../../media/Cloud-New-Images/Image16.svg";
+import Image17 from "../../media/Cloud-New-Images/Image17.svg";
+import Image18 from "../../media/Cloud-New-Images/Image18.svg";
+import Image19 from "../../media/Cloud-New-Images/Image19.png";
+import Image20 from "../../media/Cloud-New-Images/Image20.png";
 
 export default function Section7() {
     return (
@@ -14,7 +22,7 @@ export default function Section7() {
                                 <div className="col-md-6">
                                     <div className="card w-100 p-3 mt-3" style={{ background: '#262626' }}>
                                         <div className="card-body">
-                                            <img src="https://images.squarespace-cdn.com/content/v1/57378f7cc6fc0814566514ad/1599167822850-AHIEEHEZ5CCDWEEKJEXX/July+2018+Board+Pie+Chart+-+80%25+White%3B+20%25+Asian" alt="ImgNotFound" width='50px' height='50px' />
+                                            <img src={Image13.src} alt="#ImgNotFound" />
                                             <h1 className="card-title mt-3">
                                                 95% trial success rate
                                             </h1>
@@ -25,7 +33,7 @@ export default function Section7() {
                                 <div className="col-md-6">
                                     <div className="card w-100 p-3 mt-3" style={{ background: '#262626' }}>
                                         <div className="card-body">
-                                            <img src="https://images.squarespace-cdn.com/content/v1/57378f7cc6fc0814566514ad/1599167822850-AHIEEHEZ5CCDWEEKJEXX/July+2018+Board+Pie+Chart+-+80%25+White%3B+20%25+Asian" alt="ImgNotFound" width='50px' height='50px' />
+                                            <img src={Image13.src} alt="#ImgNotFound" />
                                             <h1 className="card-title mt-3">
                                                 95% trial success rate
                                             </h1>
@@ -38,7 +46,7 @@ export default function Section7() {
                                         <div className="card-body p-0">
                                             <div className="row">
                                                 <div className="col-6">
-                                                    <img src="https://images.prismic.io/turing/Zf0aFc68zyqdRp1J_TechProfessionals-Resources-420x420.webp?auto=format%2Ccompress&fit=max&w=640" alt="ImgNotFound" className='w-100' />
+                                                    <img src={Image19.src} alt="ImgNotFound" className='w-100' />
                                                 </div>
                                                 <div className="col-6" style={{ margin: 'auto' }}>
                                                     <h1 className="card-title">
@@ -54,7 +62,7 @@ export default function Section7() {
                         </div>
                         <div className="col-xl-4">
                             <div className={`card w-100 mt-3 ${styles.combinedCardBeforeXLScrn}`} style={{ background: '#262626' }}>
-                                <img src="https://images.prismic.io/turing/Zf0Z9M68zyqdRp1I_Experience_Resources-420x420.webp?auto=format%2Ccompress&fit=max&w=640" className="card-img-top" alt="#ImgNotFound" />
+                                <img src={Image20.src} className="card-img-top" alt="#ImgNotFound" />
                                 <div className="card-body p-5">
                                     <h1 className="card-title">
                                         125+ combined years of experience
@@ -72,13 +80,13 @@ export default function Section7() {
                                             <h5>for innovative business outcomes</h5>
                                         </div>
                                         <div className="col-6">
-                                            <img src="https://images.prismic.io/turing/Zf0Z9M68zyqdRp1I_Experience_Resources-420x420.webp?auto=format%2Ccompress&fit=max&w=640" alt="ImgNotFound" className='w-100' />
+                                            <img src={Image20.src} alt="ImgNotFound" className='w-100' />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className={`card w-100 mt-3 ${styles.combinedCardAfterSMScrn}`} style={{ background: '#262626' }}>
-                                <img src="https://images.prismic.io/turing/Zf0aFc68zyqdRp1J_TechProfessionals-Resources-420x420.webp?auto=format%2Ccompress&fit=max&w=640" alt="ImgNotFound" className='w-100' />
+                                <img src={Image19.src} alt="ImgNotFound" className='w-100' />
                                 <div class="card-body">
                                     <h1 className="card-title">
                                         3 million+ technical professionals
@@ -87,7 +95,7 @@ export default function Section7() {
                                 </div>
                             </div>
                             <div className={`card w-100 mt-3 ${styles.combinedCardAfterSMScrn}`} style={{ background: '#262626' }}>
-                                <img src="https://images.prismic.io/turing/Zf0Z9M68zyqdRp1I_Experience_Resources-420x420.webp?auto=format%2Ccompress&fit=max&w=640" alt="ImgNotFound" className='w-100' />
+                                <img src={Image20.src} alt="ImgNotFound" className='w-100' />
                                 <div class="card-body">
                                     <h1 className="card-title">
                                         125+ combined years of experience
@@ -99,7 +107,7 @@ export default function Section7() {
                         <div className="col-md-6">
                             <div className="card w-100 p-3 mt-3" style={{ background: '#262626' }}>
                                 <div className="card-body">
-                                    <img src="https://images.squarespace-cdn.com/content/v1/57378f7cc6fc0814566514ad/1599167822850-AHIEEHEZ5CCDWEEKJEXX/July+2018+Board+Pie+Chart+-+80%25+White%3B+20%25+Asian" alt="ImgNotFound" width='50px' height='50px' />
+                                    <img src={Image14.src} alt="#ImgNotFound" />
                                     <h1 className="card-title mt-3">
                                         95% trial success rate
                                     </h1>
@@ -110,7 +118,7 @@ export default function Section7() {
                         <div className="col-md-6">
                             <div className="card w-100 p-3 mt-3" style={{ background: '#262626' }}>
                                 <div className="card-body">
-                                    <img src="https://images.squarespace-cdn.com/content/v1/57378f7cc6fc0814566514ad/1599167822850-AHIEEHEZ5CCDWEEKJEXX/July+2018+Board+Pie+Chart+-+80%25+White%3B+20%25+Asian" alt="ImgNotFound" width='50px' height='50px' />
+                                    <img src={Image15.src} alt="#ImgNotFound" />
                                     <h1 className="card-title mt-3">
                                         95% trial success rate
                                     </h1>
@@ -121,7 +129,7 @@ export default function Section7() {
                         <div className="col-md-4">
                             <div className="card w-100 p-3 mt-3" style={{ background: '#262626' }}>
                                 <div className="card-body">
-                                    <img src="https://images.squarespace-cdn.com/content/v1/57378f7cc6fc0814566514ad/1599167822850-AHIEEHEZ5CCDWEEKJEXX/July+2018+Board+Pie+Chart+-+80%25+White%3B+20%25+Asian" alt="ImgNotFound" width='50px' height='50px' />
+                                    <img src={Image16.src} alt="#ImgNotFound" />
                                     <h1 className="card-title mt-3">
                                         95% trial success rate
                                     </h1>
@@ -132,7 +140,7 @@ export default function Section7() {
                         <div className="col-md-4">
                             <div className="card w-100 p-3 mt-3" style={{ background: '#262626' }}>
                                 <div className="card-body">
-                                    <img src="https://images.squarespace-cdn.com/content/v1/57378f7cc6fc0814566514ad/1599167822850-AHIEEHEZ5CCDWEEKJEXX/July+2018+Board+Pie+Chart+-+80%25+White%3B+20%25+Asian" alt="ImgNotFound" width='50px' height='50px' />
+                                    <img src={Image17.src} alt="#ImgNotFound" />
                                     <h1 className="card-title mt-3">
                                         95% trial success rate
                                     </h1>
@@ -143,7 +151,7 @@ export default function Section7() {
                         <div className="col-md-4">
                             <div className="card w-100 p-3 mt-3" style={{ background: '#262626' }}>
                                 <div className="card-body">
-                                    <img src="https://images.squarespace-cdn.com/content/v1/57378f7cc6fc0814566514ad/1599167822850-AHIEEHEZ5CCDWEEKJEXX/July+2018+Board+Pie+Chart+-+80%25+White%3B+20%25+Asian" alt="ImgNotFound" width='50px' height='50px' />
+                                    <img src={Image18.src} alt="#ImgNotFound" />
                                     <h1 className="card-title mt-3">
                                         95% trial success rate
                                     </h1>
