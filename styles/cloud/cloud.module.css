@@ -87,7 +87,8 @@
 .videoContainer {
   width: 100%;
   position: relative;
-  padding-top: 56.25%; /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  /* 16:9 aspect ratio */
 }
 
 .videoContainer iframe {
@@ -102,11 +103,34 @@
   display: none;
 }
 
+.combinedCardAfterSMScrn {
+  display: none;
+}
+
+.combinedCardBeforeSMScrn {
+  display: block;
+}
+
 @media (max-width: 1200px) {
-  .combinedCardBeforeXLScrn  {
+  .combinedCardBeforeXLScrn {
     display: none;
   }
-  .combinedCardAfterXLScrn  {
+
+  .combinedCardAfterXLScrn {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .combinedCardAfterXLScrn {
+    display: none;
+  }
+
+  .combinedCardBeforeSMScrn {
+    display: none;
+  }
+
+  .combinedCardAfterSMScrn {
     display: block;
   }
 }
