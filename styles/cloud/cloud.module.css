@@ -134,3 +134,17 @@
     display: block;
   }
 }
+
+.scrnAfterMDScrn{
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .scrnBeforeMDScrn{
+    display: none;
+  }
+
+  .scrnAfterMDScrn{
+    display: block;
+  }
+}
