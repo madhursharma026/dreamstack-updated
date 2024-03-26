@@ -1,16 +1,16 @@
 import Head from "next/head";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-import Quotes from "./Components/cloud/Quotes";
 import Section1 from "./Components/cloud/Section1";
 import Section2 from "./Components/cloud/Section2";
-import Benefits from "./Components/common/Benefits";
-import Insights from "./Components/common/Insights";
-import News from "./Components/DataAndAnalytics/News";
-import OurApproach from "./Components/common/OurApproach";
-import Capabilities from "./Components/cloud/capabilities";
-import BeliefInAction from "./Components/common/BeliefInAction";
-import TalkToExpert from "./Components/DataAndAnalytics/TalkToExpert";
+import Section3 from "./Components/cloud/Section3";
+import Section4 from "./Components/cloud/Section4";
+import Section5 from "./Components/cloud/Section5";
+import Section6 from "./Components/cloud/Section6";
+import Section7 from "./Components/cloud/Section7";
+import Section8 from "./Components/cloud/Section8";
+import Section9 from "./Components/cloud/Section9";
+import Section10 from "./Components/cloud/Section10";
 
 export default function cloud() {
   return (
@@ -22,15 +22,16 @@ export default function cloud() {
       <Header />
       <Section1 />
       <Section2 />
-      <OurApproach />
-      <Capabilities />
-      <Insights />
-      <Benefits />
-      <BeliefInAction />
-      <News />
-      <Quotes />
-      <TalkToExpert />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Section7 />
+      <Section8 />
+      <Section9 />
+      <Section10 />
       <Footer />
     </>
   )
 }
+
