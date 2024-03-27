@@ -6,11 +6,6 @@ import Image4 from "../../media/Partner-Images/partner-image-4.png";
 import Image5 from "../../media/Partner-Images/partner-image-5.png";
 import Image6 from "../../media/Partner-Images/partner-image-6.png";
 import Image7 from "../../media/Partner-Images/partner-image-7.png";
-// import Image8 from "../../media/Partner-Images/partner-image-8.jpg";
-// import Image9 from "../../media/Partner-Images/partner-image-9.jpg";
-// import Image10 from "../../media/Partner-Images/partner-image-10.jpg";
-// import Image11 from "../../media/Partner-Images/partner-image-11.jpg";
-// import Image12 from "../../media/Partner-Images/partner-image-12.jpg";
 
 export default function CustomersSlider() {
     return (
@@ -55,43 +50,11 @@ export default function CustomersSlider() {
                         <div className={`${styles.slide}`}>
                             <img src={Image5.src} style={{ width: '100%' }} />
                         </div>
-                    </div>
-                    <div className={`${styles.antiImageSliderTrack}`}>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image1.src} style={{ width: '100%' }} />
-                        </div>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image2.src} style={{ width: '100%' }} />
-                        </div>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image3.src} style={{ width: '100%' }} />
-                        </div>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image4.src} style={{ width: '100%' }} />
-                        </div>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image5.src} style={{ width: '100%' }} />
-                        </div>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image7.src} style={{ width: '100%' }} />
-                        </div>
                         <div className={`${styles.slide}`}>
                             <img src={Image6.src} style={{ width: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image5.src} style={{ width: '100%' }} />
-                        </div>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image4.src} style={{ width: '100%' }} />
-                        </div>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image3.src} style={{ width: '100%' }} />
-                        </div>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image2.src} style={{ width: '100%' }} />
-                        </div>
-                        <div className={`${styles.slide}`}>
-                            <img src={Image1.src} style={{ width: '100%' }} />
+                            <img src={Image7.src} style={{ width: '100%' }} />
                         </div>
                     </div>
                 </div>
