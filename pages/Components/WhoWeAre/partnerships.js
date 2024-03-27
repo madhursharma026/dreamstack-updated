@@ -18,46 +18,46 @@ export default function Partnerships() {
                 <div className={`${styles.imageSlider}`}>
                     <div className={`${styles.imageSliderTrack}`}>
                     <div className={`${styles.slide}`}>
-                            <img src={Image1.src} style={{ width: '100%' }} />
+                            <img src={Image1.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image2.src} style={{ width: '100%' }} />
+                            <img src={Image2.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image3.src} style={{ width: '100%' }} />
+                            <img src={Image3.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image4.src} style={{ width: '100%' }} />
+                            <img src={Image4.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image5.src} style={{ width: '100%' }} />
+                            <img src={Image5.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image6.src} style={{ width: '100%' }} />
+                            <img src={Image6.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image7.src} style={{ width: '100%' }} />
+                            <img src={Image7.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image1.src} style={{ width: '100%' }} />
+                            <img src={Image1.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image2.src} style={{ width: '100%' }} />
+                            <img src={Image2.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image3.src} style={{ width: '100%' }} />
+                            <img src={Image3.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image4.src} style={{ width: '100%' }} />
+                            <img src={Image4.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image5.src} style={{ width: '100%' }} />
+                            <img src={Image5.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image6.src} style={{ width: '100%' }} />
+                            <img src={Image6.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                         <div className={`${styles.slide}`}>
-                            <img src={Image7.src} style={{ width: '100%' }} />
+                            <img src={Image7.src}  style={{ width: '100%', maxHeight: '60px', height: '100%' }} />
                         </div>
                     </div>
                 </div>
