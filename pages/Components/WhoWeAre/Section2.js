@@ -1,24 +1,21 @@
-import styles from '../../../styles/DataAndAnalytics/Section2.module.css';
-import Images1 from "../../media/WhoWeAre-Images/WhoWeAre-image-1.jpeg";
+import styles from '../../../styles/WhoWeAre/WhoWeAre.module.css';
+import Typewriter from "typewriter-effect";
 
 export default function Section2() {
     return (
-        <div className={`px-md-4 px-3 py-md-5 pb-lg-0 pb-5 mt-md-0 mt-5`}>
-            <div className={`${styles.ContainerWidth}`}>
-                <div className="row">
-                    <div className="col-lg-6 p-lg-5 pt-5" style={{ margin: 'auto' }}>
-                        <div className={`${styles.sectionBody}`}>
-                            <h1 className={`${styles.sectionTitle}`}>Building greater futures through innovation and collective knowledge</h1>
-                            <p className={`${styles.sectionContent}`}>
-                                Founded in 2014, Dreamstack is an Cloud computing, IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses for the past decade. We offers an array of cloud-native infrastructure products and services including physical bare-metal servers, cloud servers, We registered as Private Limited in 2020.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 p-lg-5 pt-3 text-center" style={{ margin: 'auto' }}>
-                        <img src={Images1.src} alt="#ImgNotFound" className={`${styles.imgWidth}`} />
-                    </div>
+        <div className={`my-5 py-5 mx-sm-5 mx-3 px-sm-5 px-3`}>
+            <div style={{ maxWidth: '992px', margin: 'auto' }}>
+                <h3 className='text-center'>Good software is a work of art, and good art takes time. Our teams spend years mastering their craft in order to deliver exceptional products that customers love. Software isn't just our paycheck:</h3>
+                <div className="text-center">
+                    <h1 className={styles.mainHeading} style={{ display: 'inline-block'  }}>
+                        It's our&nbsp;
+                    </h1>
+                    <h1 className={styles.mainHeading} style={{ display: 'inline-block'  }}>
+                        <Typewriter onInit={(typewriter) => { typewriter.typeString("craft.").pauseFor(1000).deleteAll().typeString("passion.").start(); }} />
+                    </h1>
                 </div>
             </div>
         </div>
     )
 }
+
