@@ -1,17 +1,14 @@
 import Head from "next/head";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-import Galance from "./Components/WhoWeAre/glance";
+import Section1 from "./Components/WhoWeAre/Section1";
 import Section2 from "./Components/WhoWeAre/Section2";
-import Investors from "./Components/WhoWeAre/Investors";
-import OurPeople from "./Components/WhoWeAre/OurPeople";
-import MapService from "./Components/WhoWeAre/MapService";
-import AboutUsCard from "./Components/WhoWeAre/AboutUsCard";
-import WhomWeServe from "./Components/WhoWeAre/WhomWeServe";
-import TalkToExpert from "./Components/WhoWeAre/TalkToExpert";
-import KnowUsBetter from "./Components/WhoWeAre/KnowUsBetter";
-import Partnerships from "./Components/WhoWeAre/partnerships";
-import OurPricingPolicy from "./Components/WhoWeAre/OurPricingPolicy";
+import Section3 from "./Components/WhoWeAre/Section3";
+import Section4 from "./Components/WhoWeAre/Section4";
+import Section5 from "./Components/WhoWeAre/Section5";
+import Section6 from "./Components/WhoWeAre/Section6";
+import Section7 from "./Components/WhoWeAre/Section7";
+import Section8 from "./Components/WhoWeAre/Section8";
 
 export default function WhoWeAre() {
     return (
@@ -21,17 +18,14 @@ export default function WhoWeAre() {
                 <meta name="description" content="Who We Are - Dreamstack" />
             </Head>
             <Header />
+            <Section1 />
             <Section2 />
-            <Galance />
-            <OurPeople />
-            <AboutUsCard />
-            <KnowUsBetter />
-            <WhomWeServe />
-            <MapService />
-            <Partnerships />
-            <OurPricingPolicy />
-            <Investors />
-            <TalkToExpert />
+            <Section3 />
+            <Section4 />
+            <Section5 />
+            <Section6 />
+            <Section7 />
+            <Section8 />
             <Footer />
         </>
     )
