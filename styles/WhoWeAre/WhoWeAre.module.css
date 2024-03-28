@@ -1,0 +1,29 @@
+.ContainerWidth {
+    margin: 0 auto;
+    max-width: 1550px;
+}
+
+@media (max-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 70px;
+    }
+}
+
+.mainHeading {
+    font-size: calc(48px + 1.60vw);
+}
+
+.sectionTitle {
+    font-size: calc(28px + 1.25vw);
+}
+
+.sectionBody {
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
