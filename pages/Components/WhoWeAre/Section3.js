@@ -4,7 +4,7 @@ export default function Section3() {
     return (
         <>
             <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zoho-aboutus-cuttingedge.jpg" alt="#ImgNotFound" className='w-100' />
-            <div className={`my-5 py-5 mx-3`}>
+            <div className={`my-5 py-5`}>
                 <div className={`${styles.ContainerWidth}`}>
                     <div className="row">
                         <h1 className="d-xl-none d-block">Cutting-edge technology meets timeless values</h1>
