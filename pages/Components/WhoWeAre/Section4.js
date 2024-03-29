@@ -48,6 +48,7 @@ export default function Section4() {
                                     <span className={styles.sectionTitle}>A common sense approach to privacy</span>
                                     <span className={styles.sectionBody}>
                                         <br />
+                                        <br />
                                         When you put customers before profits, you end up with more of both.
                                         <br />
                                         <br />
@@ -58,7 +59,7 @@ export default function Section4() {
                                 </TabPanel>
                                 <TabPanel value={value} index={1}>
                                     <span className={styles.sectionTitle}>A private company with a public vision</span>
-                                    <div className="row">
+                                    <div className="row mt-4">
                                         <div className="col-lg-6">
                                             <span className={styles.sectionBody}>Since we have never taken money from investors, we have always been able to focus on what is best for the customer. Rather than worrying about short-term profits, we've had the freedom to think for the long term.</span>
                                             <br />
@@ -75,7 +76,7 @@ export default function Section4() {
                                 </TabPanel>
                                 <TabPanel value={value} index={2}>
                                     <span className={styles.sectionTitle}>A private company with a public vision</span>
-                                    <div className="row">
+                                    <div className="row mt-4">
                                         <div className="col-lg-6" style={{ margin: 'auto' }}>
                                             <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-companykeep.jpg" alt="#ImgNotFound" className='w-100' style={{ maxHeight: '400px', objectFit: 'contain' }} />
                                         </div>
@@ -89,7 +90,7 @@ export default function Section4() {
                                 </TabPanel>
                                 <TabPanel value={value} index={3}>
                                     <span className={styles.sectionTitle}>A new way to run your business</span>
-                                    <div className="row">
+                                    <div className="row mt-4">
                                         <div className="col-lg-6">
                                             <span className={styles.sectionBody}>When you choose Zoho, you get more than a single product, suite, or platform. You get what we call the operating system for business, the result of more than a decade of engineering and design effort.</span>
                                             <br />
@@ -104,6 +105,7 @@ export default function Section4() {
                                 <TabPanel value={value} index={4}>
                                     <span className={styles.sectionTitle}>A commitment to our communities</span>
                                     <span className={styles.sectionBody}>
+                                        <br />
                                         <br />
                                         As a global company, we understand the value of good citizenship. It's why we always try to give more than we get and why we are always looking for ways to support the communities in which we live.
                                     </span>

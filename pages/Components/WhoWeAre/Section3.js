@@ -17,7 +17,7 @@ export default function Section3() {
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-4">
-                            <h5 className='h-100 mt-md-0 mt-4'>
+                            <h5 className='h-100 mt-md-0 mt-4' style={{lineHeight: '1.7', letterSpacing: '-0.2px'}}>
                                 We believe that software is the ultimate product of the hands and the mind. And we take pride in creating products and solutions that help solve business problems, anticipate needs, and discover opportunities to help you grow.
                                 <br />
                                 <br />
@@ -25,7 +25,7 @@ export default function Section3() {
                             </h5>
                         </div>
                         <div className="col-md-6 col-xl-4">
-                            <h5 className='h-100 mt-md-0 mt-4'>
+                            <h5 className='h-100 mt-md-0 mt-4' style={{lineHeight: '1.7', letterSpacing: '-0.2px'}}>
                                 We prefer to build things ourselves instead of growing our platform through acquisition. We invest more in customer support and product development than in sales and marketing. All that because we believe that's the best way to deliver choice and value to our customers.
                                 <br />
                                 <br />
