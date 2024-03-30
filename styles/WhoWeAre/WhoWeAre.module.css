@@ -57,9 +57,9 @@
     width: 100%;
     height: auto;
     overflow: hidden;
-  }
-  
-  .videoBackground .video {
+}
+
+.videoBackground .video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,9 +69,16 @@
     width: auto;
     height: auto;
     z-index: -1;
-  }
-  
-  .content {
+}
+
+.content {
     position: relative;
     z-index: 1;
-  }
+}
+
+@media (max-width: 576px) {
+    .makingFontLessBoldAfterSMScrn {
+        font-weight: inherit;
+        /* Reset font-weight to inherit for smaller screens */
+    }
+}
