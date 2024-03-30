@@ -62,7 +62,7 @@ export default function Section8() {
                     </div>
 
                     {/* <div id="carouselExampleDark" class="carousel carousel-dark slide d-md-none d-block"> */}
-                    <div id="carouselExampleSlidesOnly" class="carousel carousel-dark d-md-none d-block slide" data-bs-ride="carousel">
+                    <div id="carouselExampleSlidesOnly1" class="carousel carousel-dark d-md-none d-block slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="10000">
                                 <p className='mt-3' style={{ maxWidth: '500px', margin: 'auto', lineHeight: '1.6', letterSpacing: '-0.3px', background: '#fff3e4', fontSize: '1.125rem', marginBottom: '-50px' }}>"Zoho has always focused on how to make their customers, employees, and community better, and I believe that’s the key to their success."</p>
@@ -101,11 +101,11 @@ export default function Section8() {
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly1" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly1" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
