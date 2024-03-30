@@ -8,7 +8,7 @@ export default function Section7() {
                     <h1 className={`${styles.sectionTitle} pt-md-5 pt-3`}>
                         Our journey through the years
                     </h1>
-                    <h5 style={{ maxWidth: '800px', margin: 'auto', lineHeight: '1.6', letterSpacing: '-0.3px' }}>
+                    <h5 className={`mt-3 ${styles.makingFontLessBoldAfterSMScrn}`} style={{ maxWidth: '800px', margin: 'auto', lineHeight: '1.6', letterSpacing: '-0.3px' }}>
                         Creating stellar products for our users comes first. In the long run, it's not the big wins that matter, but the little ones, and the determination to keep trying. And that's what we do every day: continually put new things on the market and demonstrate the value of our products.
                     </h5>
                 </div>

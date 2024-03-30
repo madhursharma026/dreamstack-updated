@@ -8,7 +8,7 @@ export default function Section1() {
                     <source src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-ban.mp4?auto=compress%2Cformat&fit=min&q=80" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-                <div className={styles.content}>
+                <div className={`${styles.content} ${styles.makingFontLessBoldAfterSMScrn}`}>
                     <div style={{ background: 'rgba(5,55,85,0.82)', paddingTop: '70px', paddingBottom: '70px' }}>
                         <div className={`${styles.ContainerWidth} ${styles.Section1}`}>
                             <div className="row py-lg-5 my-lg-5 px-lg-4">
