@@ -9,6 +9,7 @@ import Section5 from "./Components/WhoWeAre/Section5";
 import Section6 from "./Components/WhoWeAre/Section6";
 import Section7 from "./Components/WhoWeAre/Section7";
 import Section8 from "./Components/WhoWeAre/Section8";
+import Section9 from "./Components/WhoWeAre/Section9";
 
 export default function WhoWeAre() {
     return (
@@ -26,7 +27,9 @@ export default function WhoWeAre() {
             <Section6 />
             <Section7 />
             <Section8 />
+            <Section9 />
             <Footer />
         </>
     )
 }
+
