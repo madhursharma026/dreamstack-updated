@@ -19,7 +19,7 @@ export default function login() {
     }
 
     return (
-        <div className={styles.loginScreen} style={{ background: "#E3F0FF", height: '100vh', }}>
+        <div className={styles.loginScreen} style={{ height: '100vh', }}>
             <div className={styles.loginContentBefore400PX}>
                 <div className={`p-0 pt-4`}>
                     <div className={`${styles.ContainerWidth} ${styles.Section1}`}>
@@ -82,7 +82,7 @@ export default function login() {
                     </div>
                 </div>
             </div>
-            <div className={`${styles.loginContentAfter400PX} bg-white p-4`}>
+            <div className={`${styles.loginContentAfter400PX} p-4`}>
                 <h3 className='d-sm-none d-block'><img src={Logo.src} alt="#ImgNotFound" width="30px" height='30px' /> <b>DREAMSTACK</b></h3>
                 <h2 className='mt-sm-0 mt-4' style={{ lineHeight: '1', fontWeight: 'bolder' }}>Sign in to your account</h2>
                 {errorEmailPasswordLogin ?
