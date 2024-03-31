@@ -27,6 +27,10 @@
     display: none;
 }
 
+.loginScreen {
+    background: #E3F0FF;
+}
+
 @media (max-width: 400px) {
     .loginContentAfter400PX {
         display: block;
@@ -34,5 +38,9 @@
 
     .loginContentBefore400PX {
         display: none;
+    }
+
+    .loginScreen {
+        background: white;
     }
 }
