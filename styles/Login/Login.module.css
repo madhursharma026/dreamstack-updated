@@ -22,3 +22,17 @@
         display: flex;
     }
 }
+
+.loginContentAfter400PX {
+    display: none;
+}
+
+@media (max-width: 400px) {
+    .loginContentAfter400PX {
+        display: block;
+    }
+
+    .loginContentBefore400PX {
+        display: none;
+    }
+}
