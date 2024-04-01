@@ -13,7 +13,7 @@ export default function Section1() {
                         <div className={`${styles.ContainerWidth} ${styles.Section1}`}>
                             <div className="row py-lg-5 my-lg-5 px-lg-4">
                                 <div className="col-md-10 col-lg-9 col-xl-8 col-xxl-7">
-                                    <h4 className='text-white'>About Us</h4>
+                                    <h4 className={`text-white ${styles.h4CustomFont}`}>About Us</h4>
                                     <h1 className={`${styles.sectionTitle} pt-3 text-white`}>For more than 25 years, we've been bucking Silicon Valley trends, taking our own approach to building products.</h1>
                                 </div>
                             </div>

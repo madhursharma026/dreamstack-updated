@@ -126,58 +126,63 @@ const Section4 = () => {
                         </div>
                     </div>
                     <div className='d-lg-none d-block'>
-                        <h1>A common sense approach to privacy</h1>
-                        <h5 className={`mt-3 ${styles.makingFontLessBoldAfterSMScrn}`}>
+                        {/* <h1>A common sense approach to privacy</h1> */}
+                        <p className={styles.h1CustomFont}>A common sense approach to privacy</p>
+                        <p className={`mt-3 ${styles.h5CustomFont}`}>
                             When you put customers before profits, you end up with more of both.
                             <br />
                             <br />
                             From the beginning, we decided we would never show ads inside our products (not even in the free editions), nor would we sell user information to third parties. And by prohibiting third-party trackers from operating on any of our websites, we've taken extra steps to make sure that your business is yours alone.
-                        </h5>
+                        </p>
                         <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-commonsense.jpg" alt="#ImgNotFound" className='w-100 my-4' />
-                        <h5 className={`${styles.makingFontLessBoldAfterSMScrn}`}>We aren't interested in invading your privacy just to make a quick buck. Every person should have control over their data, regardless of where they live. We didn't need laws and government regulations to tell us that; its just the right thing to do.</h5>
+                        <p className={`${styles.h5CustomFont}`}>We aren't interested in invading your privacy just to make a quick buck. Every person should have control over their data, regardless of where they live. We didn't need laws and government regulations to tell us that; its just the right thing to do.</p>
 
                         <hr className='my-5' />
 
-                        <h1>A private company with a public vision</h1>
-                        <h5 className={`mt-3 ${styles.makingFontLessBoldAfterSMScrn}`}>
+                        {/* <h1>A private company with a public vision</h1> */}
+                        <p className={styles.h1CustomFont}>A private company with a public vision</p>
+                        <p className={`mt-3 ${styles.h5CustomFont}`}>
                             Since we have never taken money from investors, we have always been able to focus on what is best for the customer. Rather than worrying about short-term profits, we've had the freedom to think for the long term.
                             <br /><br />
                             This kind of independence changes how we approach problem-solving, empowering us to truly think differently.
                             <br /><br />
                             From how we build to how we hire, our unconventional approach has brought us to more than 15,000 employees and 100 million users around the world.
-                        </h5>
+                        </p>
                         <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-privacy-mob.jpg" alt="#ImgNotFound" className='w-100 my-4' />
 
                         <hr className='my-5' />
 
-                        <h1>A company you will keep</h1>
+                        {/* <h1>A company you will keep</h1> */}
+                        <p className={styles.h1CustomFont}>A company you will keep</p>
                         <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-companykeep-mob.jpg" alt="#ImgNotFound" className='w-100 my-4' />
-                        <h5 className={`${styles.makingFontLessBoldAfterSMScrn}`}>
+                        <p className={`${styles.h5CustomFont}`}>
                             Software should solve more problems than it causes, so we don't lock you into multi-year contracts with fixed price increases. We don't push our salespeople to push you.
                             <br /><br />
                             Our products are available à la carte or as suites, and we offer flexible payment options to fit every budget. Our prices are as transparent as our privacy policy, and we take pride in both.
-                        </h5>
+                        </p>
 
                         <hr className='my-5' />
 
-                        <h1>A new way to run your business</h1>
-                        <h5 className={`${styles.makingFontLessBoldAfterSMScrn}`}>
+                        {/* <h1>A new way to run your business</h1> */}
+                        <p className={styles.h1CustomFont}>A new way to run your business</p>
+                        <p className={`${styles.h5CustomFont}`}>
                             When you choose Zoho, you get more than a single product, suite, or platform. You get what we call the operating system for business, the result of more than a decade of engineering and design effort.
                             <br /><br />
                             With more than 55 deeply integrated apps available on the web and mobile, we offer a solution to fit almost every business need. And if we haven't built it yet, you can bet we probably will soon.
-                        </h5>
+                        </p>
                         <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-newway-mob.jpg" alt="#ImgNotFound" className='w-100 my-4' />
 
                         <hr className='my-5' />
 
-                        <h1>A commitment to our communities</h1>
-                        <h5 className={`mt-3 ${styles.makingFontLessBoldAfterSMScrn}`}>
+                        {/* <h1>A commitment to our communities</h1> */}
+                        <p className={styles.h1CustomFont}>A commitment to our communities</p>
+                        <p className={`mt-3 ${styles.h5CustomFont}`}>
                             As a global company, we understand the value of good citizenship. It's why we always try to give more than we get and why we are always looking for ways to support the communities in which we live.
                             <br />
                             <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-commitedour.jpg" alt="#ImgNotFound" className='w-100 my-4' />
                             <br />
                             With more than 55 deeply integrated apps available on the web and mobile, we offer a solution to fit almost every business need. And if we haven't built it yet, you can bet we probably will soon.
-                        </h5>
+                        </p>
                     </div>
                 </div>
             </div>

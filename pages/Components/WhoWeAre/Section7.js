@@ -8,9 +8,9 @@ export default function Section7() {
                     <h1 className={`${styles.sectionTitle} pt-md-5 pt-3`}>
                         Our journey through the years
                     </h1>
-                    <h5 className={`mt-3 ${styles.makingFontLessBoldAfterSMScrn}`} style={{ maxWidth: '800px', margin: 'auto', lineHeight: '1.6', letterSpacing: '-0.3px' }}>
+                    <p className={`mt-3 ${styles.h5CustomFont}`} style={{ maxWidth: '800px', margin: 'auto', lineHeight: '1.6', letterSpacing: '-0.3px' }}>
                         Creating stellar products for our users comes first. In the long run, it's not the big wins that matter, but the little ones, and the determination to keep trying. And that's what we do every day: continually put new things on the market and demonstrate the value of our products.
-                    </h5>
+                    </p>
                 </div>
                 <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-ourstory-bg.png" alt="#ImgNotFound" className='w-100 mt-lg-0 mt-3 d-lg-block d-none' style={{marginBottom: '-250px'}} />
 
