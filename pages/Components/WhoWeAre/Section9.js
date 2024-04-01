@@ -1,4 +1,5 @@
 import styles from '../../../styles/WhoWeAre/WhoWeAre.module.css';
+import Img12 from "../../media/WhoWeAre-Images/Image12.svg";
 
 export default function Section9() {
     return (
@@ -8,7 +9,7 @@ export default function Section9() {
                 <br />
                 Made for the World.
             </h1>
-            <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-made-in-india.svg" alt="ImgNotFound" className='w-100' />
+            <img src={Img12.src} alt="ImgNotFound" className='w-100' />
         </div>
     )
 }

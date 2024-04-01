@@ -1,4 +1,5 @@
 import styles from '../../../styles/WhoWeAre/WhoWeAre.module.css';
+import Img8 from "../../media/WhoWeAre-Images/Image8.png";
 
 export default function Section6() {
     return (
@@ -10,7 +11,7 @@ export default function Section6() {
                             <div className="row">
                                 <div className='col-lg-6 col-5' style={{ position: 'sticky', top: 100, left: 0, maxHeight: '60vh' }}>
                                     <div style={{ maxWidth: '450px', margin: 'auto' }}>
-                                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-sridhar.png" alt="#ImgNotFound" className='w-100' />
+                                        <img src={Img8.src} alt="#ImgNotFound" className='w-100' />
                                     </div>
                                 </div>
                                 <div className='col-lg-6 col-7' style={{ overflowY: 'auto' }}>

@@ -1,4 +1,5 @@
 import styles from '../../../styles/WhoWeAre/WhoWeAre.module.css';
+import Img9 from "../../media/WhoWeAre-Images/Image9.png";
 
 export default function Section7() {
     return (
@@ -12,7 +13,7 @@ export default function Section7() {
                         Creating stellar products for our users comes first. In the long run, it's not the big wins that matter, but the little ones, and the determination to keep trying. And that's what we do every day: continually put new things on the market and demonstrate the value of our products.
                     </p>
                 </div>
-                <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-ourstory-bg.png" alt="#ImgNotFound" className='w-100 mt-lg-0 mt-3 d-lg-block d-none' style={{ marginBottom: '-250px' }} />
+                <img src={Img9.src} alt="#ImgNotFound" className='w-100 mt-lg-0 mt-3 d-lg-block d-none' style={{ marginBottom: '-250px' }} />
 
                 <div className="row p-5 text-white mt-5" style={{ maxWidth: '700px', margin: 'auto', borderRadius: '10px', background: '#0060B4', zIndex: '1' }}>
                     <div className="col-md-4 col-6 mt-3">

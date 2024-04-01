@@ -1,5 +1,14 @@
 import React, { useRef, useEffect, useState } from 'react';
 import styles from '../../../styles/WhoWeAre/WhoWeAre.module.css';
+import Img3 from "../../media/WhoWeAre-Images/Image3.jpg";
+import Img4 from "../../media/WhoWeAre-Images/Image4.jpg";
+import Img5 from "../../media/WhoWeAre-Images/Image5.jpg";
+import Img6 from "../../media/WhoWeAre-Images/Image6.jpg";
+import Img7 from "../../media/WhoWeAre-Images/Image7.jpg";
+import Img13 from "../../media/WhoWeAre-Images/Image13.jpg";
+import Img14 from "../../media/WhoWeAre-Images/Image14.jpg";
+import Img15 from "../../media/WhoWeAre-Images/Image15.jpg";
+import Img16 from "../../media/WhoWeAre-Images/Image16.jpg";
 
 const Section4 = () => {
     const [visibleColumn, setVisibleColumn] = useState(null);
@@ -62,7 +71,7 @@ const Section4 = () => {
                                         <br /><br />
                                         From the beginning, we decided we would never show ads inside our products (not even in the free editions), nor would we sell user information to third parties. And by prohibiting third-party trackers from operating on any of our websites, we've taken extra steps to make sure that your business is yours alone.
                                     </span>
-                                    <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-commonsense.jpg" alt="#ImgNotFound" className='w-100 my-4' />
+                                    <img src={Img3.src} alt="#ImgNotFound" className='w-100 my-4' />
                                     <span className={styles.sectionBody}>We aren't interested in invading your privacy just to make a quick buck. Every person should have control over their data, regardless of where they live. We didn't need laws and government regulations to tell us that; its just the right thing to do.</span>
                                 </div>
                                 <hr className='my-5' />
@@ -77,7 +86,7 @@ const Section4 = () => {
                                             <span className={styles.sectionBody}>From how we build to how we hire, our unconventional approach has brought us to more than 15,000 employees and 100 million users around the world.</span>
                                         </div>
                                         <div className="col-lg-6" style={{ margin: 'auto' }}>
-                                            <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-privacy.jpg" alt="#ImgNotFound" className='w-100' style={{ maxHeight: '400px', objectFit: 'contain' }} />
+                                            <img src={Img4.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '400px', objectFit: 'contain' }} />
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +95,7 @@ const Section4 = () => {
                                     <span className={styles.sectionTitle}>A company you'll keep</span>
                                     <div className="row mt-4">
                                         <div className="col-lg-6" style={{ margin: 'auto' }}>
-                                            <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-companykeep.jpg" alt="#ImgNotFound" className='w-100' style={{ maxHeight: '400px', objectFit: 'contain' }} />
+                                            <img src={Img5.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '400px', objectFit: 'contain' }} />
                                         </div>
                                         <div className="col-lg-6">
                                             <span className={styles.sectionBody}>Software should solve more problems than it causes, so we don't lock you into multi-year contracts with fixed price increases. We don't push our salespeople to push you.</span>
@@ -105,7 +114,7 @@ const Section4 = () => {
                                             <span className={styles.sectionBody}>With more than 55 deeply integrated apps available on the web and mobile, we offer a solution to fit almost every business need. And if we haven't built it yet, you can bet we probably will soon.</span>
                                         </div>
                                         <div className="col-lg-6" style={{ margin: 'auto' }}>
-                                            <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-newway.jpg" alt="#ImgNotFound" className='w-100' style={{ maxHeight: '400px', objectFit: 'contain' }} />
+                                            <img src={Img6.src} alt="#ImgNotFound" className='w-100' style={{ maxHeight: '400px', objectFit: 'contain' }} />
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +125,7 @@ const Section4 = () => {
                                         <br /><br />
                                         As a global company, we understand the value of good citizenship. It's why we always try to give more than we get and why we are always looking for ways to support the communities in which we live.
                                     </span>
-                                    <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-commitedour.jpg" alt="#ImgNotFound" className='w-100 my-4' />
+                                    <img src={Img7.jpg} alt="#ImgNotFound" className='w-100 my-4' />
                                     <span className={styles.sectionBody}>
                                         <br />
                                         From providing subscription relief to businesses impacted by natural disasters to building solar farms that offset our carbon footprint, we take on initiatives that change the lives of our customers and employees for the better.
@@ -134,7 +143,7 @@ const Section4 = () => {
                             <br />
                             From the beginning, we decided we would never show ads inside our products (not even in the free editions), nor would we sell user information to third parties. And by prohibiting third-party trackers from operating on any of our websites, we've taken extra steps to make sure that your business is yours alone.
                         </p>
-                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-commonsense.jpg" alt="#ImgNotFound" className='w-100 my-4' />
+                        <img src={Img3.src} alt="#ImgNotFound" className='w-100 my-4' />
                         <p className={`${styles.h5CustomFont}`}>We aren't interested in invading your privacy just to make a quick buck. Every person should have control over their data, regardless of where they live. We didn't need laws and government regulations to tell us that; its just the right thing to do.</p>
 
                         <hr className='my-5' />
@@ -148,13 +157,13 @@ const Section4 = () => {
                             <br /><br />
                             From how we build to how we hire, our unconventional approach has brought us to more than 15,000 employees and 100 million users around the world.
                         </p>
-                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-privacy-mob.jpg" alt="#ImgNotFound" className='w-100 my-4' />
+                        <img src={Img13.src} alt="#ImgNotFound" className='w-100 my-4' />
 
                         <hr className='my-5' />
 
                         {/* <h1>A company you will keep</h1> */}
                         <p className={styles.h1CustomFont}>A company you will keep</p>
-                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-companykeep-mob.jpg" alt="#ImgNotFound" className='w-100 my-4' />
+                        <img src={Img14.src} alt="#ImgNotFound" className='w-100 my-4' />
                         <p className={`${styles.h5CustomFont}`}>
                             Software should solve more problems than it causes, so we don't lock you into multi-year contracts with fixed price increases. We don't push our salespeople to push you.
                             <br /><br />
@@ -170,7 +179,7 @@ const Section4 = () => {
                             <br /><br />
                             With more than 55 deeply integrated apps available on the web and mobile, we offer a solution to fit almost every business need. And if we haven't built it yet, you can bet we probably will soon.
                         </p>
-                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-newway-mob.jpg" alt="#ImgNotFound" className='w-100 my-4' />
+                        <img src={Img15.src} alt="#ImgNotFound" className='w-100 my-4' />
 
                         <hr className='my-5' />
 
@@ -179,7 +188,7 @@ const Section4 = () => {
                         <p className={`mt-3 ${styles.h5CustomFont}`}>
                             As a global company, we understand the value of good citizenship. It's why we always try to give more than we get and why we are always looking for ways to support the communities in which we live.
                             <br />
-                            <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zohoaboutus-commitedour.jpg" alt="#ImgNotFound" className='w-100 my-4' />
+                            <img src={Img16.src} alt="#ImgNotFound" className='w-100 my-4' />
                             <br />
                             With more than 55 deeply integrated apps available on the web and mobile, we offer a solution to fit almost every business need. And if we haven't built it yet, you can bet we probably will soon.
                         </p>

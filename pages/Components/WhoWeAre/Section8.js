@@ -1,4 +1,5 @@
 import styles from '../../../styles/WhoWeAre/WhoWeAre.module.css';
+import Img10 from "../../media/WhoWeAre-Images/Image10.png";
 
 export default function Section8() {
     return (
@@ -17,7 +18,7 @@ export default function Section8() {
                             <div class="carousel-item active">
                                 <div className="row p-5">
                                     <div className="col-md-5 p-md-5" style={{ borderRight: '1px solid #E7EBF0' }}>
-                                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-testimonial-phil-wainewright.png" alt="#ImgNotFound" className={styles.testimonialImg} />
+                                        <img src={Img10.src} alt="#ImgNotFound" className={styles.testimonialImg} />
                                     </div>
                                     <div className="col-md-6" style={{ margin: 'auto' }}>
                                         <p className='mt-3' style={{ maxWidth: '400px', lineHeight: '1.6', letterSpacing: '-0.3px', background: '#fff3e4', fontSize: '1.125rem' }}>"Zoho has always focused on how to make their customers, employees, and community better, and I believe that’s the key to their success."</p>
@@ -29,7 +30,7 @@ export default function Section8() {
                             <div class="carousel-item">
                                 <div className="row p-5">
                                     <div className="col-md-5 p-md-5" style={{ borderRight: '1px solid #E7EBF0' }}>
-                                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-testimonial-phil-wainewright.png" alt="#ImgNotFound" className={styles.testimonialImg} />
+                                        <img src={Img10.src} alt="#ImgNotFound" className={styles.testimonialImg} />
                                     </div>
                                     <div className="col-md-6" style={{ margin: 'auto' }}>
                                         <p className='mt-3' style={{ maxWidth: '400px', lineHeight: '1.6', letterSpacing: '-0.3px', background: '#fff3e4', fontSize: '1.125rem' }}>"Zoho has always focused on how to make their customers, employees, and community better, and I believe that’s the key to their success."</p>
@@ -41,7 +42,7 @@ export default function Section8() {
                             <div class="carousel-item">
                                 <div className="row p-5">
                                     <div className="col-md-5 p-md-5" style={{ borderRight: '1px solid #E7EBF0' }}>
-                                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-testimonial-phil-wainewright.png" alt="#ImgNotFound" className={styles.testimonialImg} />
+                                        <img src={Img10.src} alt="#ImgNotFound" className={styles.testimonialImg} />
                                     </div>
                                     <div className="col-md-6" style={{ margin: 'auto' }}>
                                         <p className='mt-3' style={{ maxWidth: '400px', lineHeight: '1.6', letterSpacing: '-0.3px', background: '#fff3e4', fontSize: '1.125rem' }}>"Zoho has always focused on how to make their customers, employees, and community better, and I believe that’s the key to their success."</p>
@@ -68,7 +69,7 @@ export default function Section8() {
                                 <p className='mt-3' style={{ maxWidth: '500px', margin: 'auto', lineHeight: '1.6', letterSpacing: '-0.3px', background: '#fff3e4', fontSize: '1.125rem', marginBottom: '-50px' }}>"Zoho has always focused on how to make their customers, employees, and community better, and I believe that’s the key to their success."</p>
                                 <div className="row mt-md-0 mt-5">
                                     <div className="col-5 p-5 text-center">
-                                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-testimonial-phil-wainewright.png" alt="#ImgNotFound" className={styles.testimonialImg} />
+                                        <img src={Img10.src} alt="#ImgNotFound" className={styles.testimonialImg} />
                                     </div>
                                     <div className="col-7" style={{ margin: 'auto' }}>
                                         <h4>Brent Leary,</h4>
@@ -80,7 +81,7 @@ export default function Section8() {
                                 <p className='mt-3' style={{ maxWidth: '500px', margin: 'auto', lineHeight: '1.6', letterSpacing: '-0.3px', background: '#fff3e4', fontSize: '1.125rem', marginBottom: '-50px' }}>"Zoho has always focused on how to make their customers, employees, and community better, and I believe that’s the key to their success."</p>
                                 <div className="row mt-md-0 mt-5">
                                     <div className="col-5 p-5 text-center">
-                                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-testimonial-phil-wainewright.png" alt="#ImgNotFound" className={styles.testimonialImg} />
+                                        <img src={Img10.src} alt="#ImgNotFound" className={styles.testimonialImg} />
                                     </div>
                                     <div className="col-7" style={{ margin: 'auto' }}>
                                         <h4>Brent Leary,</h4>
@@ -92,7 +93,7 @@ export default function Section8() {
                                 <p className='mt-3' style={{ maxWidth: '500px', margin: 'auto', lineHeight: '1.6', letterSpacing: '-0.3px', background: '#fff3e4', fontSize: '1.125rem', marginBottom: '-50px' }}>"Zoho has always focused on how to make their customers, employees, and community better, and I believe that’s the key to their success."</p>
                                 <div className="row mt-md-0 mt-5">
                                     <div className="col-5 p-5 text-center">
-                                        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-our-story-testimonial-phil-wainewright.png" alt="#ImgNotFound" className={styles.testimonialImg} />
+                                        <img src={Img10.src} alt="#ImgNotFound" className={styles.testimonialImg} />
                                     </div>
                                     <div className="col-7" style={{ margin: 'auto' }}>
                                         <h4>Brent Leary,</h4>

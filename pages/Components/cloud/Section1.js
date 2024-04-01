@@ -4,7 +4,7 @@ import Image1 from "../../media/Cloud-New-Images/Image1.png";
 
 export default function Section1() {
     return (
-        <div className={`p mt-5`}>
+        <div className={`p-0 mt-5`}>
             <div style={{ backgroundImage: `url(${Image1.src})`, paddingTop: '100px', paddingBottom: '100px', backgroundSize: 'cover', backgroundPosition: '50%' }}>
                 <div className={`${styles.ContainerWidth}`}>
                     <div className="row py-lg-5 my-lg-5">

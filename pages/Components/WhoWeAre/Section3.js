@@ -1,9 +1,11 @@
 import styles from '../../../styles/WhoWeAre/WhoWeAre.module.css';
+import Img1 from "../../media/WhoWeAre-Images/Image1.jpg";
+import Img2 from "../../media/WhoWeAre-Images/Image2.jpeg";
 
 export default function Section3() {
     return (
         <>
-            <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zoho-aboutus-cuttingedge.jpg" alt="#ImgNotFound" className='w-100' />
+            <img src={Img1.src} alt="#ImgNotFound" className='w-100' />
             <div className={`my-5 py-5`}>
                 <div className={`${styles.ContainerWidth}`}>
                     <div className="row">
@@ -11,7 +13,7 @@ export default function Section3() {
                         <p className={`d-xl-none d-block ${styles.h1CustomFont}`}>Cutting-edge technology meets timeless values</p>
                         <div className="d-xl-block d-none col-xl-4" style={{ marginTop: '-200px' }}>
                             <div className="card w-100 h-100" style={{ background: '#F8F9FB', border: "none" }}>
-                                <img src="https://media.licdn.com/dms/image/C4E1BAQHwcwgzl-mtKA/company-background_10000/0/1585355522399/cfleads_cover?e=2147483647&v=beta&t=06Mcdma59jaSrvmfCUTs9_b8BBwH0VgWVZdCy-o2sGQ" className="w-100 card-img-top" alt="#ImgNotFound" height='150px' style={{ objectFit: 'cover' }} />
+                                <img src={Img2.src} className="w-100 card-img-top" alt="#ImgNotFound" height='150px' style={{ objectFit: 'cover' }} />
                                 <div className="card-body p-4">
                                     {/* <h1>Cutting-edge technology meets timeless values</h1> */}
                                     <p className={styles.h1CustomFont}>Cutting-edge technology meets timeless values</p>
