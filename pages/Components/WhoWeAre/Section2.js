@@ -5,7 +5,11 @@ export default function Section2() {
     return (
         <div className={`my-5 py-5 mx-sm-5 mx-3`}>
             <div style={{ maxWidth: '860px', margin: 'auto' }}>
-                <h4 className={`text-center ${styles.makingFontLessBoldAfterSMScrn}`} style={{ lineHeight: '1.6', letterSpacing: '-0.3px' }}>Good software is a work of art, and good art takes time. Our teams spend years mastering their craft in order to deliver exceptional products that customers love. Software isn't just our paycheck:</h4>
+                <p className={`mt-3 text-center ${styles.customFont}`} style={{ lineHeight: '1.6', }}>
+                    {/* <h4 className={`text-center ${styles.makingFontLessBoldAfterSMScrn}`} style={{ lineHeight: '1.6', letterSpacing: '-0.3px' }}> */}
+                    Good software is a work of art, and good art takes time. Our teams spend years mastering their craft in order to deliver exceptional products that customers love. Software isn't just our paycheck:
+                    {/* </h4> */}
+                </p>
                 <div className="text-center d-sm-block d-none">
                     <h1 className={styles.mainHeading} style={{ display: 'inline-block' }}>
                         It's our&nbsp;
@@ -23,7 +27,7 @@ export default function Section2() {
                     </h1>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
