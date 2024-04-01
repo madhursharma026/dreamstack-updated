@@ -83,21 +83,49 @@
 }
 
 @media (max-width: 576px) {
-    .customFont {
+    .h4CustomFont {
         font-size: 1.25rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.05rem;
+    }
+
+    .h1CustomFont {
+        font-size: 1.80rem;
+        line-height: 1.3;
+        /* Adjust the font size as needed */
     }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-    .customFont {
+    .h4CustomFont {
         font-size: 1.3530;
+    }
+
+    .h5CustomFont {
+        font-size: 1.1530;
+    }
+
+    .h1CustomFont {
+        font-size: 2.20rem;
+        line-height: 1.3;
+        /* Adjust the font size as needed */
     }
 }
 
 @media (min-width: 768px) {
-    .customFont {
+    .h4CustomFont {
         font-size: 1.45rem;
     }
+
+    .h5CustomFont {
+        font-size: 1.25rem;
+    }
+
+    .h1CustomFont {
+        font-size: 2.5rem;
+        line-height: 1.3;
+        /* Adjust the font size as needed */
+    }
 }
-
-
