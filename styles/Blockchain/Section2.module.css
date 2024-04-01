@@ -23,3 +23,81 @@
         padding: 0 60px;
     }
 }
+
+@media (max-width: 576px) {
+    .h1CustomFont {
+        font-size: 1.80rem;
+    }
+
+    .h2CustomFont {
+        font-size: 1.65rem;
+    }
+
+    .h3CustomFont {
+        font-size: 1.35rem;
+    }
+
+    .h4CustomFont {
+        font-size: 1.25rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.05rem;
+    }
+
+    .customFont {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .h1CustomFont {
+        font-size: 2.20rem;
+    }
+
+    .h2CustomFont {
+        font-size: 1.7rem;
+    }
+
+    .h3CustomFont {
+        font-size: 1.4rem;
+    }
+
+    .h4CustomFont {
+        font-size: 1.3530rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.1530rem;
+    }
+
+    .customFont {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 768px) {
+    .h1CustomFont {
+        font-size: 2.5rem;
+    }
+
+    .h2CustomFont {
+        font-size: 2rem;
+    }
+
+    .h3CustomFont {
+        font-size: 1.75rem;
+    }
+
+    .h4CustomFont {
+        font-size: 1.45rem;
+    }
+
+    .h5CustomFont {
+        font-size: 1.25rem;
+    }
+
+    .customFont {
+        font-size: 20px;
+    }
+}
