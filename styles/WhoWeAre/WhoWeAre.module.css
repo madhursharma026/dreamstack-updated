@@ -104,11 +104,11 @@
 
 @media (min-width: 576px) and (max-width: 768px) {
     .h4CustomFont {
-        font-size: 1.3530;
+        font-size: 1.3530rem;
     }
 
     .h5CustomFont {
-        font-size: 1.1530;
+        font-size: 1.1530rem;
     }
 
     .h1CustomFont {
