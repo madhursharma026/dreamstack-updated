@@ -15,12 +15,12 @@ export default function Solutions() {
                                 <div className="row">
                                     <h1 className={`${styles.sectionTitle} px-4`}><b>Our Custom Blockchain Solutions for All Types of Enterprises</b></h1>
                                     <br />
-                                    <h4 className={`${styles.sectionBody} px-4`}>Our time-tested experience in custom blockchain development solutions delivers secure and robust blockchain applications for enterprises from various industries</h4>
+                                    <p className={`${styles.h4CustomFont} px-4`}>Our time-tested experience in custom blockchain development solutions delivers secure and robust blockchain applications for enterprises from various industries</p>
                                     <div className="col-md-6 mt-3">
                                         <div className="card w-100 h-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
                                             <div className="card-body">
-                                                <h3 className="card-title"><b>Corda Development</b></h3>
-                                                <p className="card-text" style={{ fontSize: '20px' }}>
+                                                <p className={`${styles.h3CustomFont} card-title`}><b>Corda Development</b></p>
+                                                <p className={`${styles.customFont} card-text`}>
                                                     Corda is an open-source distributed ledger technology that uses Consensus Time, Hashgraphs, and Stamping to reduce expensive friction in business transactions
                                                 </p>
                                             </div>
@@ -29,8 +29,8 @@ export default function Solutions() {
                                     <div className="col-md-6 mt-3">
                                         <div className="card w-100 h-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
                                             <div className="card-body">
-                                                <h3 className="card-title"><b>Stellar Development</b></h3>
-                                                <p className="card-text" style={{ fontSize: '20px' }}>
+                                                <p className={`${styles.h3CustomFont} card-title`}><b>Stellar Development</b></p>
+                                                <p className={`${styles.customFont} card-text`}>
                                                     We will build future-ready and secure applications on Stellar Blockchain platform that connect banks, customers and payment systems for easy and safe money transactions
                                                 </p>
                                             </div>
@@ -39,8 +39,8 @@ export default function Solutions() {
                                     <div className="col-md-6 mt-3">
                                         <div className="card w-100 h-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
                                             <div className="card-body">
-                                                <h3 className="card-title"><b>Hyperledger Development</b></h3>
-                                                <p className="card-text" style={{ fontSize: '20px' }}>
+                                                <p className={`${styles.h3CustomFont} card-title`}><b>Hyperledger Development</b></p>
+                                                <p className={`${styles.customFont} card-text`}>
                                                     Create a cutting-edge enterprise ecosystem with transactions that are secure and transparent to foster your blockchain business with the Hyperledger framework
                                                 </p>
                                             </div>
@@ -49,8 +49,8 @@ export default function Solutions() {
                                     <div className="col-md-6 mt-3">
                                         <div className="card w-100 h-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
                                             <div className="card-body">
-                                                <h3 className="card-title"><b>Ethereum Development</b></h3>
-                                                <p className="card-text" style={{ fontSize: '20px' }}>
+                                                <p className={`${styles.h3CustomFont} card-title`}><b>Ethereum Development</b></p>
+                                                <p className={`${styles.customFont} card-text`}>
                                                     When you hire software developers to build Ethereum, they deliver smart contracts and direct interaction of dApps with the decentralized Ethereum blockchain development
                                                 </p>
                                             </div>

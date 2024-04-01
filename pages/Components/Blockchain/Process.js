@@ -24,7 +24,7 @@ export default function Process() {
                                 <div className="card" style={{ border: '2px solid red' }}>
                                     <div className="card-body">
                                         <img src={Images8.src} alt="#ImgNotFound" width="100px" />
-                                        <h6 className="card-subtitle mt-2 text-body-secondary"><b>Conceptualizing</b></h6>
+                                        <p className={`card-subtitle mt-2 text-body-secondary ${styles.h6CustomFont}`}><b>Conceptualizing</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@ export default function Process() {
                                 <div className="card" style={{ border: '2px solid red' }}>
                                     <div className="card-body">
                                         <img src={Images9.src} alt="#ImgNotFound" width="100px" />
-                                        <h6 className="card-subtitle mt-2 text-body-secondary"><b>Business Analysis</b></h6>
+                                        <p className={`card-subtitle mt-2 text-body-secondary ${styles.h6CustomFont}`}><b>Business Analysis</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ export default function Process() {
                                 <div className="card" style={{ border: '2px solid red' }}>
                                     <div className="card-body">
                                         <img src={Images10.src} alt="#ImgNotFound" width="100px" />
-                                        <h6 className="card-subtitle mt-2 text-body-secondary"><b>Goal Setting</b></h6>
+                                        <p className={`card-subtitle mt-2 text-body-secondary ${styles.h6CustomFont}`}><b>Goal Setting</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ export default function Process() {
                                 <div className="card" style={{ border: '2px solid red' }}>
                                     <div className="card-body">
                                         <img src={Images11.src} alt="#ImgNotFound" width="100px" />
-                                        <h6 className="card-subtitle mt-2 text-body-secondary"><b>Roadmap</b></h6>
+                                        <p className={`card-subtitle mt-2 text-body-secondary ${styles.h6CustomFont}`}><b>Roadmap</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ export default function Process() {
                                 <div className="card" style={{ border: '2px solid red' }}>
                                     <div className="card-body">
                                         <img src={Images12.src} alt="#ImgNotFound" width="100px" />
-                                        <h6 className="card-subtitle mt-2 text-body-secondary"><b>Prototyping</b></h6>
+                                        <p className={`card-subtitle mt-2 text-body-secondary ${styles.h6CustomFont}`}><b>Prototyping</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ export default function Process() {
                                 <div className="card" style={{ border: '2px solid red' }}>
                                     <div className="card-body">
                                         <img src={Images13.src} alt="#ImgNotFound" width="100px" />
-                                        <h6 className="card-subtitle mt-2 text-body-secondary"><b>Development</b></h6>
+                                        <p className={`card-subtitle mt-2 text-body-secondary ${styles.h6CustomFont}`}><b>Development</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ export default function Process() {
                                 <div className="card" style={{ border: '2px solid red' }}>
                                     <div className="card-body">
                                         <img src={Images14.src} alt="#ImgNotFound" width="100px" />
-                                        <h6 className="card-subtitle mt-2 text-body-secondary"><b>Testing</b></h6>
+                                        <p className={`card-subtitle mt-2 text-body-secondary ${styles.h6CustomFont}`}><b>Testing</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ export default function Process() {
                                 <div className="card" style={{ border: '2px solid red' }}>
                                     <div className="card-body">
                                         <img src={Images14.src} alt="#ImgNotFound" width="100px" />
-                                        <h6 className="card-subtitle mt-2 text-body-secondary"><b>Deployment</b></h6>
+                                        <p className={`card-subtitle mt-2 text-body-secondary ${styles.h6CustomFont}`}><b>Deployment</b></p>
                                     </div>
                                 </div>
                             </div>

@@ -5,9 +5,9 @@ export default function GetInTouch() {
         <div className={`${styles.bodyContainer} px-3`}>
             <div className={`py-5 ${styles.ContainerWidth}`}>
                 <div className="text-center">
-                    <h1><b>Get in Touch</b></h1>
+                <p className={`${styles.h1CustomFont}`}><b>Get in Touch</b></p>
                     <br />
-                    <h2>Our Free Custom Software Development Consulting Aims to Help You Analyze the Viability of Your Concept</h2>
+                    <p className={`${styles.h2CustomFont}`}>Our Free Custom Software Development Consulting Aims to Help You Analyze the Viability of Your Concept</p>
                     <button type="button" className="btn btn-info">Get Your Estimate</button>
                 </div>
             </div>
