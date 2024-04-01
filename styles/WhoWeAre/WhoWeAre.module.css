@@ -79,6 +79,25 @@
 @media (max-width: 576px) {
     .makingFontLessBoldAfterSMScrn {
         font-weight: inherit;
-        /* Reset font-weight to inherit for smaller screens */
     }
 }
+
+@media (max-width: 576px) {
+    .customFont {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .customFont {
+        font-size: 1.3530;
+    }
+}
+
+@media (min-width: 768px) {
+    .customFont {
+        font-size: 1.45rem;
+    }
+}
+
+
