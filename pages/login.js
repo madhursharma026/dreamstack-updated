@@ -25,7 +25,7 @@ export default function login() {
                     <div className={`${styles.ContainerWidth} ${styles.Section1}`}>
                         <div className="row">
                             <div className="d-xl-block d-none col-xl-6 text-xl-center" style={{ margin: 'auto' }}>
-                                <h3><img src={Logo.src} alt="#ImgNotFound" width="30px" height='30px' /> <b>DREAMSTACK</b></h3>
+                                <h3><Link href="/" style={{textDecoration:'none', color: 'black'}}><img src={Logo.src} alt="#ImgNotFound" width="30px" height='30px' /> <b>DREAMSTACK</b></Link></h3>
                                 <h3 className='mt-3'>Own Your Digital Presence</h3>
                                 <img src="https://secure.newdream.net/newpanel/images/spot_illo-login.png" alt="#ImgNotFound" className='w-100' />
                                 <p className='mt-3 text-center' style={{ maxWidth: '900px', margin: 'auto', lineHeight: '1.6', letterSpacing: '-0.3px', fontSize: '1.46rem' }}>
@@ -37,7 +37,7 @@ export default function login() {
                             <div className="col-xl-6 px-xl-5" style={{ textAlign: 'left' }}>
                                 <div class="card w-100 p-xxl-5" style={{ boxShadow: '0 20px 35px rgba(0, 34, 69, 0.03), 0 20px 35px rgba(0, 0, 0, 0.06)' }}>
                                     <div class="card-body px-sm-5 px-4 py-5">
-                                        <h3 className='d-sm-none d-block'><img src={Logo.src} alt="#ImgNotFound" width="30px" height='30px' /> <b>DREAMSTACK</b></h3>
+                                <h3><Link href="/" style={{textDecoration:'none', color: 'black'}}><img src={Logo.src} alt="#ImgNotFound" width="30px" height='30px' /> <b>DREAMSTACK</b></Link></h3>
                                         <h2 className='mt-sm-0 mt-4' style={{ lineHeight: '1', fontWeight: 'bolder' }}>Sign in to your account</h2>
                                         {errorEmailPasswordLogin ?
                                             <h6 className="p-4 mt-4" style={{ background: '#FFF4B6', borderLeft: '8px solid #FFDA00', color: '#434F58' }}>Email or password is incorrect.</h6>
@@ -125,4 +125,3 @@ export default function login() {
         </div>
     )
 }
-
