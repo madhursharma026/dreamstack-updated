@@ -83,7 +83,7 @@ export default function login() {
                 </div>
             </div>
             <div className={`${styles.loginContentAfter400PX} p-4`}>
-                <h3 className='d-sm-none d-block'><img src={Logo.src} alt="#ImgNotFound" width="30px" height='30px' /> <b>DREAMSTACK</b></h3>
+                                <h3><Link href="/" style={{textDecoration:'none', color: 'black'}}><img src={Logo.src} alt="#ImgNotFound" width="30px" height='30px' /> <b>DREAMSTACK</b></Link></h3>
                 <h2 className='mt-sm-0 mt-4' style={{ lineHeight: '1', fontWeight: 'bolder' }}>Sign in to your account</h2>
                 {errorEmailPasswordLogin ?
                     <h6 className="p-4 mt-4" style={{ background: '#FFF4B6', borderLeft: '8px solid #FFDA00', color: '#434F58' }}>Email or password is incorrect.</h6>
