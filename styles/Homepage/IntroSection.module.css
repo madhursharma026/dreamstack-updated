@@ -1,5 +1,5 @@
 .ContainerWidth {
-    /* max-width: 1550px; */
+    max-width: 1550px;
     margin: 0 auto;
 }
 
@@ -64,9 +64,9 @@
 
 @media (min-width: 576px) {
     /* .ContainerWidth { */
-        /* padding: 0 40px; */
-        /* padding-left: 40px; */
-        /* padding-right: 40px; */
+    /* padding: 0 40px; */
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
     /* } */
 
     .showAfterLGScrn {
@@ -87,7 +87,22 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 1399px) {
+    .IntroSection {
+        margin: auto;
+        max-width: 768px;
+    }
+
+    .hideAfterLGScrn {
+        display: none;
+    }
+
+    .showAfterLGScrn {
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
     .ContainerWidth {
         /* padding: 0 60px; */
         padding: 0 60px;
@@ -125,14 +140,6 @@
 
     .makeDivAlignCenterAfterLGScrn {
         text-align: center;
-    }
-
-    .hideAfterLGScrn {
-        display: none;
-    }
-
-    .showAfterLGScrn {
-        display: block;
     }
 }
 
