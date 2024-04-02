@@ -8,6 +8,7 @@ import PartnerWithUs from "./Components/Homepage/PartnerWithUs";
 import MorePowerToYou from "./Components/Homepage/MorePowerToYou";
 import CustomersSlider from "./Components/Homepage/CustomersSlider";
 import KnowledgeSection from "./Components/Homepage/KnowledgeSection";
+import Testimonial from "./Components/Homepage/Testimonial";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Header />
       <IntroSection />
       <MorePowerToYou />
+      <Testimonial />
       <CustomersSlider />
       <Productivity />
       <KnowledgeSection />
