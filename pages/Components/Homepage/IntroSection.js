@@ -119,7 +119,7 @@ export default function IntroSection() {
                     </div>
                     <br /><br />
                 </div>
-                <div className={`${styles.ContainerWidth}`} style={{ marginTop: '-140px' }}>
+                <div className={`${styles.ContainerWidth}`} style={{ marginTop: '-95px' }}>
                     <div class="card w-100 d-sm-block d-none p-3 bg-black text-white rounded-5">
                         <div class="card-body">
                             <p className={`text-center ${styles.h3CustomFont}`}><b>Trusted by thousands of <br /> businesses worldwide</b></p>
@@ -181,7 +181,7 @@ export default function IntroSection() {
                         <div class="card-body">
                             <p className={`text-center ${styles.h3CustomFont}`}><b>Trusted by thousands of <br /> businesses worldwide</b></p>
                             <hr />
-                            <div className="row p-5">
+                            <div className="row p-sm-5 p-3">
                                 <div className="col-lg-2 col-md-4 col-6">
                                     <div className={`${styles.bodyContainer1}`} />
                                 </div>
