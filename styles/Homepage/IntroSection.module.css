@@ -28,9 +28,7 @@
     background: #253053;
     border: 2px solid #253053;
     color: white;
-    /* font-size: calc(14px + 0.20vw); */
     font-size: 16px;
-    /* padding: 12px 15px; */
 }
 
 .openPositionBtn:hover {
@@ -43,9 +41,7 @@
     background: transparent;
     border: 2px solid white;
     color: white;
-    /* font-size: calc(14px + 0.20vw); */
     font-size: 16px;
-    /* padding: 12px 15px; */
 }
 
 .salesBtn:hover {
@@ -63,12 +59,6 @@
 }
 
 @media (min-width: 576px) {
-    /* .ContainerWidth { */
-    /* padding: 0 40px; */
-    /* padding-left: 40px; */
-    /* padding-right: 40px; */
-    /* } */
-
     .showAfterLGScrn {
         max-width: 400px;
         margin: auto;
@@ -81,9 +71,7 @@
 
 @media (min-width: 991px) {
     .ContainerWidth {
-        /* padding: 0 40px; */
         padding: 0 30px;
-        /* padding-right: 40px; */
     }
 }
 
@@ -104,9 +92,7 @@
 
 @media (min-width: 1400px) {
     .ContainerWidth {
-        /* padding: 0 60px; */
         padding: 0 60px;
-        /* padding-right: 60px; */
     }
 
     .rightSide {
