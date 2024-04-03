@@ -33,7 +33,7 @@ function Header() {
     })
 
     return (
-        <>
+        <div style={{zIndex: '9999', position:'relative'}}>
             <div className={`${styles.navbarBeforeMD}`} onMouseLeave={() => setIsShown(false)}>
                 {isShown && (
                     <div style={{ position: 'fixed', width: '100%', zIndex: '1', boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" }}>
@@ -166,7 +166,7 @@ function Header() {
                     </Navbar.Collapse>
                 </Navbar>
             </div>
-        </>
+        </div>
     );
 }
 
