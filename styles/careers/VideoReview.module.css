@@ -1,0 +1,50 @@
+.ContainerWidth {
+    margin: 0 auto;
+    max-width: 1550px;
+}
+
+.cardContainer {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cardImage {
+    pointer-events: none;
+}
+
+.bottomLeft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottomRight {
+    position: absolute;
+    bottom: -30px;
+    right: 16px;
+}
+
+.bottomRight:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    border-radius: 100%;
+}
+
+.bottomCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+@media (max-width: 992px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 70px;
+    }
+}
