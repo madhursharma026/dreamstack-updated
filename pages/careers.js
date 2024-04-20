@@ -9,6 +9,7 @@ import Section2 from "./Components/Careers/Section2";
 import Positions from "./Components/Careers/Positions";
 import TeamCulture from "./Components/Careers/TeamCulture";
 import DitchTheOffice from "./Components/Careers/DitchTheOffice";
+import VideoReview from "./Components/Careers/VideoReview";
 
 export default function careers() {
   return (
@@ -22,6 +23,7 @@ export default function careers() {
       <Section2 />
       <TeamCulture />
       <DitchTheOffice />
+      <VideoReview />
       <Review />
       <Team />
       <Positions />
